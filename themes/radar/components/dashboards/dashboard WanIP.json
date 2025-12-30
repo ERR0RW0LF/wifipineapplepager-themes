@@ -13,7 +13,16 @@
   },
   "background": { 
     "layers": [
-      { "image_path": "assets/dashboard/dashboard_bg.png", "x": 0, "y": 0 }
+      { "image_path": "assets/dashboard/dashboard_bg.png", "x": 0, "y": 0 },
+      { "text": "WAN IP:", "x": 261, "y": 38, "text_size": "small", "text_color_palette": "yellow" },
+      { "variable_name": "$_WLAN0CLI_IP", "x": 331, "y":38, "string_template":
+            { "text_size": "small",
+            "text_color_palette": "soft_white",
+            "max_chars": 17,
+            "wrap_text": false,
+            "max_lines": 1
+            }     
+     }
      ], 
     "background_color": { "r": 0, "g": 0, "b": 0 }
   },
