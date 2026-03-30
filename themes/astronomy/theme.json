@@ -198,14 +198,14 @@
   },
   
   
+  "commands" : {
+    "restart_pineapd": "service pineapd restart",
+    "restart_networking": "service network restart",
+    "reboot": "reboot",
+    "log_temps": "/root/battest.sh > /tmp/temps.log",
+    "restart_go": "service pineapplepager restart"
+  },
   "_unused" : {
-    "commands" : {
-      "restart_pineapd": "service pineapd restart",
-      "restart_networking": "service network restart",
-      "reboot": "reboot",
-      "log_temps": "/root/battest.sh > /tmp/temps.log",
-      "restart_go": "service pineapplepager restart"
-    },
     "payload_shortcuts": {
       "test1": "/root/payloads/user/cat1/test1",
       "test2": "/root/payloads/user/cat1/test2"
