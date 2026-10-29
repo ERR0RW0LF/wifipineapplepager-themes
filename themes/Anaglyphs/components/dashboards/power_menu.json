@@ -21,15 +21,15 @@
       "menu_items": [
         {
           "id": "Settings",
-          "x":45,
-          "y":35,
+          "x": 45,
+          "y": 35,
           "layers": [
             { "text": "Settings", "x": -1, "y": 0, "text_color_palette": "red3d" },
             { "text": "Settings", "x": 1, "y": 0, "text_color_palette": "cyan3d" },
             { "text": "Settings", "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "image_path": "assets/alerts_dashboard/sub.png","x": -38, "y": 0 },
+            { "image_path": "assets/alerts_dashboard/sub.png", "x": -38, "y": 0 },
             { "text": "Settings", "x": -1, "y": 0, "text_color_palette": "cyan3d" },
             { "text": "Settings", "x": 1, "y": 0, "text_color_palette": "red3d" },
             { "text": "Settings", "text_color_palette": "white" }
@@ -38,15 +38,15 @@
         },
         {
           "id": "Lock Screen",
-          "x":45,
-          "y":70,
+          "x": 45,
+          "y": 70,
           "layers": [
             { "text": "Lock Screen", "x": -1, "y": 0, "text_color_palette": "red3d" },
             { "text": "Lock Screen", "x": 1, "y": 0, "text_color_palette": "cyan3d" },
             { "text": "Lock Screen", "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "image_path": "assets/alerts_dashboard/sub.png","x": -38, "y": 0 },
+            { "image_path": "assets/alerts_dashboard/sub.png", "x": -38, "y": 0 },
             { "text": "Lock Screen", "x": -1, "y": 0, "text_color_palette": "cyan3d" },
             { "text": "Lock Screen", "x": 1, "y": 0, "text_color_palette": "red3d" },
             { "text": "Lock Screen", "text_color_palette": "white" }
@@ -55,15 +55,15 @@
         },
         {
           "id": "Lock Buttons",
-          "x":45,
-          "y":105,
+          "x": 45,
+          "y": 105,
           "layers": [
             { "text": "Lock Buttons", "x": -1, "y": 0, "text_color_palette": "red3d" },
             { "text": "Lock Buttons", "x": 1, "y": 0, "text_color_palette": "cyan3d" },
             { "text": "Lock Buttons", "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "image_path": "assets/alerts_dashboard/sub.png","x": -38, "y": 0 },
+            { "image_path": "assets/alerts_dashboard/sub.png", "x": -38, "y": 0 },
             { "text": "Lock Buttons", "x": -1, "y": 0, "text_color_palette": "cyan3d" },
             { "text": "Lock Buttons", "x": 1, "y": 0, "text_color_palette": "red3d" },
             { "text": "Lock Buttons", "text_color_palette": "white" }
@@ -72,15 +72,15 @@
         },
         {
           "id": "Nerd Stats",
-          "x":45,
-          "y":140,
+          "x": 45,
+          "y": 140,
           "layers": [
             { "text": "Nerd Stats", "x": -1, "y": 0, "text_color_palette": "red3d" },
             { "text": "Nerd Stats", "x": 1, "y": 0, "text_color_palette": "cyan3d" },
             { "text": "Nerd Stats", "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_STATS_FOR_NERDS", "x": -38, "use_template": "toggle" },
+            { "variable_name": "$_STATS_FOR_NERDS", "x": -38, "use_template": "toggle" },
             { "text": "Nerd Stats", "x": -1, "y": 0, "text_color_palette": "cyan3d" },
             { "text": "Nerd Stats", "x": 1, "y": 0, "text_color_palette": "red3d" },
             { "text": "Nerd Stats", "text_color_palette": "white" }
@@ -90,15 +90,15 @@
         },
         {
           "id": "shutdown",
-          "x":45,
-          "y":175,
+          "x": 45,
+          "y": 175,
           "layers": [
             { "text": "Shutdown", "x": -1, "y": 0, "text_color_palette": "red3d" },
             { "text": "Shutdown", "x": 1, "y": 0, "text_color_palette": "cyan3d" },
             { "text": "Shutdown", "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "image_path": "assets/alerts_dashboard/sub.png","x": -38, "y": 0 },
+            { "image_path": "assets/alerts_dashboard/sub.png", "x": -38, "y": 0 },
             { "text": "Shutdown", "x": -1, "y": 0, "text_color_palette": "cyan3d" },
             { "text": "Shutdown", "x": 1, "y": 0, "text_color_palette": "red3d" },
             { "text": "Shutdown", "text_color_palette": "white" }
@@ -108,6 +108,4 @@
       ]
     }
   ]
-
 }
-

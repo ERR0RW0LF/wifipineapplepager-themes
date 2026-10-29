@@ -24,11 +24,10 @@
             { "text": "Payloads", "text_color_palette": "white", "text_size": "large" }
           ],
           "selected_layers": [
-            { "image_path": "assets/alerts_dashboard/sub.png","x": -30, "y": 5 },
+            { "image_path": "assets/alerts_dashboard/sub.png", "x": -30, "y": 5 },
             { "text": "Payloads", "x": -1, "y": 0, "text_color_palette": "cyan3d", "text_size": "large" },
             { "text": "Payloads", "x": 1, "y": 0, "text_color_palette": "red3d", "text_size": "large" },
             { "text": "Payloads", "text_color_palette": "white", "text_size": "large" }
-
           ],
           "x": 254,
           "y": 60,
@@ -42,11 +41,10 @@
             { "text": "Themes", "text_color_palette": "white", "text_size": "large" }
           ],
           "selected_layers": [
-            { "image_path": "assets/alerts_dashboard/sub.png","x": -30, "y": 5 },
+            { "image_path": "assets/alerts_dashboard/sub.png", "x": -30, "y": 5 },
             { "text": "Themes", "x": -1, "y": 0, "text_color_palette": "cyan3d", "text_size": "large" },
             { "text": "Themes", "x": 1, "y": 0, "text_color_palette": "red3d", "text_size": "large" },
             { "text": "Themes", "text_color_palette": "white", "text_size": "large" }
-
           ],
           "x": 254,
           "y": 87,

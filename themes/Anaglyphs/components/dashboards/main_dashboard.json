@@ -49,7 +49,7 @@
         { "image_path": "assets/dashboard/recon.png", "x": 0, "y": 0 }
       ],
       "selected_layers": [
-        { "image_path": "assets/dashboard/recon_up.png", "x": 0, "y": 0  }
+        { "image_path": "assets/dashboard/recon_up.png", "x": 0, "y": 0 }
       ],
       "x": 155,
       "y": 45,
@@ -61,7 +61,7 @@
         { "image_path": "assets/dashboard/pineap.png", "x": 0, "y": 0 }
       ],
       "selected_layers": [
-        { "image_path": "assets/dashboard/pineap_up.png", "x": 0, "y": 0  }
+        { "image_path": "assets/dashboard/pineap_up.png", "x": 0, "y": 0 }
       ],
       "x": 260,
       "y": 45,
@@ -79,7 +79,7 @@
       "y": 90,
       "target": "settings_menu"
     },
-	{
+    {
       "id": "pagerportal",
       "layers": [
         { "image_path": "assets/dashboard/portal.png", "x": 0, "y": 0 }

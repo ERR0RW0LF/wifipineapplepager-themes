@@ -15,47 +15,40 @@
     "layers": [
       { "image_path": "assets/settings_bg.png", "x": 0, "y": 0 },
       { "image_path": "assets/divright.png", "x": 140, "y": 50 },
-      { "text": "Clock", "x": 9, "y": 50,  "text_color_palette": "cyan3d" },
-      { "text": "Clock", "x": 11, "y": 50,  "text_color_palette": "red3d" },
-      { "text": "Clock", "x": 10, "y": 50,  "text_color_palette": "white" },
-      { "text": "GPS",       "x": 10, "y": 85,  "text_color_palette": "gray" },
-      { "text": "Updates",   "x": 10, "y": 120, "text_color_palette": "gray" },
-      { "text": "Help",      "x": 10, "y": 155, "text_color_palette": "gray" },
-      { "text": "About",     "x": 10, "y": 190, "text_color_palette": "gray" }
+      { "text": "Clock", "x": 9, "y": 50, "text_color_palette": "cyan3d" },
+      { "text": "Clock", "x": 11, "y": 50, "text_color_palette": "red3d" },
+      { "text": "Clock", "x": 10, "y": 50, "text_color_palette": "white" },
+      { "text": "GPS", "x": 10, "y": 85, "text_color_palette": "gray" },
+      { "text": "Updates", "x": 10, "y": 120, "text_color_palette": "gray" },
+      { "text": "Help", "x": 10, "y": 155, "text_color_palette": "gray" },
+      { "text": "About", "x": 10, "y": 190, "text_color_palette": "gray" }
     ]
   },
   "pages": [
     {
       "page_index": 0,
       "menu_items": [
-       {
+        {
           "id": "Date/Time",
-          "x":170,
-          "y":50,
+          "x": 170,
+          "y": 50,
           "unselectable": true,
           "layers": [
-            { "variable_name": "$_DATETIME", "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 24,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_DATETIME", "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 24, "wrap_text": false, "max_lines": 1 } }
           ]
         },
         {
           "id": "24 Hour Clock",
-          "x":170,
-          "y":85,
+          "x": 170,
+          "y": 85,
           "layers": [
-            { "variable_name":  "$_CLOCK_24HR", "use_template": "toggle" },
+            { "variable_name": "$_CLOCK_24HR", "use_template": "toggle" },
             { "text": "24 Hour Clock", "x": 39, "text_color_palette": "red3d" },
             { "text": "24 Hour Clock", "x": 41, "text_color_palette": "cyan3d" },
             { "text": "24 Hour Clock", "x": 40, "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_CLOCK_24HR", "use_template": "toggle" },
+            { "variable_name": "$_CLOCK_24HR", "use_template": "toggle" },
             { "text": "24 Hour Clock", "x": 39, "text_color_palette": "cyan3d" },
             { "text": "24 Hour Clock", "x": 41, "text_color_palette": "red3d" },
             { "text": "24 Hour Clock", "x": 40, "text_color_palette": "white" }
@@ -65,8 +58,8 @@
         },
         {
           "id": "Timezone",
-          "x":170,
-          "y":120,
+          "x": 170,
+          "y": 120,
           "layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Timezone", "x": 39, "text_color_palette": "red3d" },
@@ -84,8 +77,8 @@
         },
         {
           "id": "Year",
-          "x":170,
-          "y":155,
+          "x": 170,
+          "y": 155,
           "layers": [
             { "image_path": "assets/keyboard.png" },
             { "text": "Year", "x": 39, "text_color_palette": "red3d" },
@@ -103,21 +96,21 @@
         },
         {
           "id": "Month",
-          "x":170,
-          "y":190,
+          "x": 170,
+          "y": 190,
           "layers": [
             { "image_path": "assets/keyboard.png" },
             { "text": "Month", "x": 39, "text_color_palette": "red3d" },
             { "text": "Month", "x": 41, "text_color_palette": "cyan3d" },
             { "text": "Month", "x": 40, "text_color_palette": "white" },
-            { "image_path": "assets/down.png", "x": -20, "y": 10}
+            { "image_path": "assets/down.png", "x": -20, "y": 10 }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png" },
             { "text": "Month", "x": 39, "text_color_palette": "cyan3d" },
             { "text": "Month", "x": 41, "text_color_palette": "red3d" },
             { "text": "Month", "x": 40, "text_color_palette": "white" },
-            { "image_path": "assets/down.png", "x": -20, "y": 10}
+            { "image_path": "assets/down.png", "x": -20, "y": 10 }
           ],
           "target": "edit_number_dialog",
           "variable": "$_MONTH"
@@ -129,29 +122,29 @@
       "menu_items": [
         {
           "id": "Day",
-          "x":170,
-          "y":50,
+          "x": 170,
+          "y": 50,
           "layers": [
             { "image_path": "assets/keyboard.png" },
             { "text": "Day", "x": 39, "text_color_palette": "red3d" },
             { "text": "Day", "x": 41, "text_color_palette": "cyan3d" },
             { "text": "Day", "x": 40, "text_color_palette": "white" },
-            { "image_path": "assets/up.png", "x": -20, "y": -4}
+            { "image_path": "assets/up.png", "x": -20, "y": -4 }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png" },
             { "text": "Day", "x": 39, "text_color_palette": "cyan3d" },
             { "text": "Day", "x": 41, "text_color_palette": "red3d" },
             { "text": "Day", "x": 40, "text_color_palette": "white" },
-            { "image_path": "assets/up.png", "x": -20, "y": -4}
+            { "image_path": "assets/up.png", "x": -20, "y": -4 }
           ],
           "target": "edit_number_dialog",
           "variable": "$_DAY"
         },
         {
           "id": "Hour",
-          "x":170,
-          "y":85,
+          "x": 170,
+          "y": 85,
           "layers": [
             { "image_path": "assets/keyboard.png" },
             { "text": "Hour", "x": 39, "text_color_palette": "red3d" },
@@ -169,8 +162,8 @@
         },
         {
           "id": "Minute",
-          "x":170,
-          "y":120,
+          "x": 170,
+          "y": 120,
           "layers": [
             { "image_path": "assets/keyboard.png" },
             { "text": "Minute", "x": 39, "text_color_palette": "red3d" },
@@ -188,8 +181,8 @@
         },
         {
           "id": "Second",
-          "x":170,
-          "y":155,
+          "x": 170,
+          "y": 155,
           "layers": [
             { "image_path": "assets/keyboard.png" },
             { "text": "Second", "x": 39, "text_color_palette": "red3d" },

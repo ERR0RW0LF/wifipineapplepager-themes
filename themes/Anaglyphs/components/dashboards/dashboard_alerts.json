@@ -5,7 +5,9 @@
   "cache_canvases": true,
   "background": {
     "layers": [
-      { "image_path": "assets/alerts_dashboard/alerts_bg.png", "x": 0, "y": 0 }
+      { "image_path": "assets/alerts_dashboard/alerts_bg.png", "x": 0, "y": 0 },
+      { "image_path": "assets/help.png", "x": 447, "y": 27, "recolor_palette": "gray" },
+      { "text": ">", "x": 461, "y": 27, "text_size": "small", "text_color_palette": "gray" }
     ],
     "background_color": { "r": 0, "g": 0, "b": 0 }
   },
@@ -26,12 +28,14 @@
             { "text": "Evil AP Auth Captured", "x": 159, "y": 60, "text_color_palette": "cyan3d" },
             { "text": "Evil AP Auth Captured", "x": 161, "y": 60, "text_color_palette": "red3d" },
             { "text": "Evil AP Auth Captured", "x": 160, "y": 60, "text_color_palette": "white" }
-
           ],
           "x": 0,
           "y": 0,
           "target": "alerts_dialog_submenu",
-          "variable": "$_ALERTS_AUTH_CAPTURED"
+          "variable": "$_ALERTS_AUTH_CAPTURED",
+          "button_map": {
+            "right": "target alerts_dashboard_explained auth captured"
+          }
         },
         {
           "id": "deauth flood",
@@ -44,12 +48,14 @@
             { "text": "Deauth Flood Detected", "x": 159, "y": 87, "text_color_palette": "cyan3d" },
             { "text": "Deauth Flood Detected", "x": 161, "y": 87, "text_color_palette": "red3d" },
             { "text": "Deauth Flood Detected", "x": 160, "y": 87, "text_color_palette": "white" }
-
           ],
           "x": 0,
           "y": 0,
           "target": "alerts_dialog_submenu",
-          "variable": "$_ALERTS_DEAUTH_FLOOD"
+          "variable": "$_ALERTS_DEAUTH_FLOOD",
+          "button_map": {
+            "right": "target alerts_dashboard_explained deauth flood"
+          }
         },
         {
           "id": "new client",
@@ -62,12 +68,14 @@
             { "text": "New Client Connected", "x": 159, "y": 118, "text_color_palette": "cyan3d" },
             { "text": "New Client Connected", "x": 161, "y": 118, "text_color_palette": "red3d" },
             { "text": "New Client Connected", "x": 160, "y": 118, "text_color_palette": "white" }
-
           ],
           "x": 0,
           "y": 0,
           "target": "alerts_dialog_submenu",
-          "variable": "$_ALERTS_NEW_CLIENT"
+          "variable": "$_ALERTS_NEW_CLIENT",
+          "button_map": {
+            "right": "target alerts_dashboard_explained new client"
+          }
         },
         {
           "id": "handshake capture",
@@ -84,7 +92,10 @@
           "x": 0,
           "y": 0,
           "target": "alerts_dialog_submenu",
-          "variable": "$_ALERTS_HANDSHAKE_CAPTURE"
+          "variable": "$_ALERTS_HANDSHAKE_CAPTURE",
+          "button_map": {
+            "right": "target alerts_dashboard_explained handshake capture"
+          }
         }
       ]
     }
