@@ -23,7 +23,7 @@
           "id": "evilwpa_wizard_title",
           "unselectable": true,
           "layers": [
-            { "x": 125, "y": 20, "text_size": "large", "text_color_palette": "red", "text": "Evil WPA Setup" }
+            { "x": 125, "y": 20, "text_size": "large", "text_color_palette": "yellow", "text": "Evil WPA Setup" }
           ]
         },
         {
