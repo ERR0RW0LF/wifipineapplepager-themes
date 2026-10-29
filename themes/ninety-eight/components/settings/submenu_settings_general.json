@@ -14,13 +14,14 @@
   "background": {
     "layers": [
       { "image_path": "assets/settings_bg.png", "x": 0, "y": 0 },
-      { "image_path": "assets/slider.png", "x": 127, "y": 38},
-      { "text": "General",  "x": 10, "y": 30,  "text_color_palette": "black" },
-      { "image_path": "assets/settings/listhighlight.png", "x": 8, "y": 28},
-      { "text": "Display",  "x": 10, "y": 65,  "text_color_palette": "gray" },
+      { "image_path": "assets/slider.png", "x": 127, "y": 38 },
+      { "text": "General", "x": 10, "y": 30, "text_color_palette": "black" },
+      { "image_path": "assets/settings/listhighlight.png", "x": 8, "y": 28 },
+      { "text": "Display", "x": 10, "y": 65, "text_color_palette": "gray" },
       { "text": "Ringtone", "x": 10, "y": 100, "text_color_palette": "gray" },
-      { "text": "Network",  "x": 10, "y": 135, "text_color_palette": "gray" },
-      { "text": "System",   "x": 10, "y": 170, "text_color_palette": "gray" }
+      { "text": "Network", "x": 10, "y": 135, "text_color_palette": "gray" },
+      { "text": "System", "x": 10, "y": 170, "text_color_palette": "gray" },
+      { "image_path": "assets/help.png", "x": 418, "y": 6 }
     ]
   },
   "pages": [
@@ -37,59 +38,71 @@
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Volume", "x": 40, "text_color_palette": "black" }
           ],
           "target": "option_dialog_narrow",
-          "variable": "$_VOLUME"
+          "variable": "$_VOLUME",
+          "button_map": {
+            "right": "target settings_general_submenu_explained Volume"
+          }
         },
         {
           "id": "Vibrate",
           "x": 160,
-          "y":65,
+          "y": 65,
           "layers": [
-            { "variable_name":  "$_VIBRATE", "use_template": "checkbox" },
+            { "variable_name": "$_VIBRATE", "use_template": "checkbox" },
             { "text": "Vibrate", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_VIBRATE", "use_template": "checkbox" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "variable_name": "$_VIBRATE", "use_template": "checkbox" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Vibrate", "x": 40, "text_color_palette": "black" }
           ],
           "target": "inline_toggle",
-          "variable": "$_VIBRATE"
+          "variable": "$_VIBRATE",
+          "button_map": {
+            "right": "target settings_general_submenu_explained Vibrate"
+          }
         },
         {
           "id": "Vibrate w/ Ringtone",
           "x": 160,
-          "y":100,
+          "y": 100,
           "layers": [
-            { "variable_name":  "$_RINGTONE_VIBRATE", "use_template": "checkbox" },
+            { "variable_name": "$_RINGTONE_VIBRATE", "use_template": "checkbox" },
             { "text": "Vibrate w/ Ringtone", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_RINGTONE_VIBRATE", "use_template": "checkbox" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "variable_name": "$_RINGTONE_VIBRATE", "use_template": "checkbox" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Vibrate w/ Ringtone", "x": 40, "text_color_palette": "black" }
           ],
           "target": "inline_toggle",
-          "variable": "$_RINGTONE_VIBRATE"
+          "variable": "$_RINGTONE_VIBRATE",
+          "button_map": {
+            "right": "target settings_general_submenu_explained Vibrate w/ Ringtone"
+          }
         },
         {
           "id": "Theme",
           "x": 160,
-          "y":135,
+          "y": 135,
           "layers": [
             { "image_path": "assets/menu.png", "recolor_palette": "black" },
             { "text": "Theme", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Theme", "x": 40, "text_color_palette": "black" }
           ],
           "target": "option_dialog",
-          "variable": "$_THEME"
+          "variable": "$_THEME",
+          "button_map": {
+            "right": "target settings_general_submenu_explained Theme"
+          }
         },
         {
           "id": "DPADLED",
@@ -101,63 +114,16 @@
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "D-Pad LED", "x": 40, "text_color_palette": "black" }
           ],
           "target": "option_dialog_narrow",
-          "variable": "$_DPAD_LED_COLOR"
+          "variable": "$_DPAD_LED_COLOR",
+          "button_map": {
+            "right": "target settings_general_submenu_explained DPADLED"
+          }
         }
       ]
     }
   ]
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

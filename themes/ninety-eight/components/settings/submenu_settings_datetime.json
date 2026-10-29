@@ -14,14 +14,14 @@
   "background": {
     "layers": [
       { "image_path": "assets/settings_bg.png", "x": 0, "y": 0 },
-      { "image_path": "assets/slider.png", "x": 127, "y": 139},
-      { "image_path": "assets/scrollbar.png", "x": 458, "y": 22},
-      { "image_path": "assets/settings/listhighlight.png", "x": 8, "y": 28},
-      { "text": "Clock", "x": 10, "y": 30,  "text_color_palette": "black" },
-      { "text": "GPS",       "x": 10, "y": 65,  "text_color_palette": "gray" },
-      { "text": "Updates",   "x": 10, "y": 100, "text_color_palette": "gray" },
-      { "text": "Help",      "x": 10, "y": 135, "text_color_palette": "gray" },
-      { "text": "About",     "x": 10, "y": 170, "text_color_palette": "gray" }
+      { "image_path": "assets/slider.png", "x": 127, "y": 139 },
+      { "image_path": "assets/scrollbar.png", "x": 458, "y": 22 },
+      { "image_path": "assets/settings/listhighlight.png", "x": 8, "y": 28 },
+      { "text": "Clock", "x": 10, "y": 30, "text_color_palette": "black" },
+      { "text": "GPS", "x": 10, "y": 65, "text_color_palette": "gray" },
+      { "text": "Updates", "x": 10, "y": 100, "text_color_palette": "gray" },
+      { "text": "Help", "x": 10, "y": 135, "text_color_palette": "gray" },
+      { "text": "About", "x": 10, "y": 170, "text_color_palette": "gray" }
     ]
   },
   "pages": [
@@ -34,28 +34,21 @@
           "y": 30,
           "unselectable": true,
           "layers": [
-			{ "image_path": "assets/slider.png", "x": 298, "y": 8},
-            { "variable_name": "$_DATETIME", "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "black",
-                "max_chars": 24,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "image_path": "assets/slider.png", "x": 298, "y": 8 },
+            { "variable_name": "$_DATETIME", "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 24, "wrap_text": false, "max_lines": 1 } }
           ]
         },
         {
           "id": "Timezone",
           "x": 160,
-          "y":65,
+          "y": 65,
           "layers": [
             { "image_path": "assets/menu.png", "recolor_palette": "black" },
             { "text": "Timezone", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Timezone", "x": 40, "text_color_palette": "black" }
           ],
           "target": "option_dialog",
@@ -64,14 +57,14 @@
         {
           "id": "Year",
           "x": 160,
-          "y":100,
+          "y": 100,
           "layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
             { "text": "Year", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Year", "x": 40, "text_color_palette": "black" }
           ],
           "target": "edit_number_dialog",
@@ -80,14 +73,14 @@
         {
           "id": "Month",
           "x": 160,
-          "y":135,
+          "y": 135,
           "layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
             { "text": "Month", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Month", "x": 40, "text_color_palette": "black" }
           ],
           "target": "edit_number_dialog",
@@ -96,14 +89,14 @@
         {
           "id": "Day",
           "x": 160,
-          "y":170,
+          "y": 170,
           "layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
             { "text": "Day", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Day", "x": 40, "text_color_palette": "black" }
           ],
           "target": "edit_number_dialog",
@@ -119,14 +112,14 @@
           "x": 160,
           "y": 30,
           "layers": [
-			{ "image_path": "assets/slider.png", "x": 298, "y": 109},
+            { "image_path": "assets/slider.png", "x": 298, "y": 109 },
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
             { "text": "Hour", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
-			{ "image_path": "assets/slider.png", "x": 298, "y": 109},
+            { "image_path": "assets/slider.png", "x": 298, "y": 109 },
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Hour", "x": 40, "text_color_palette": "black" }
           ],
           "target": "edit_number_dialog",
@@ -135,14 +128,14 @@
         {
           "id": "Minute",
           "x": 160,
-          "y":65,
+          "y": 65,
           "layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
             { "text": "Minute", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Minute", "x": 40, "text_color_palette": "black" }
           ],
           "target": "edit_number_dialog",
@@ -151,14 +144,14 @@
         {
           "id": "Second",
           "x": 160,
-          "y":100,
+          "y": 100,
           "layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
             { "text": "Second", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Second", "x": 40, "text_color_palette": "black" }
           ],
           "target": "edit_number_dialog",
@@ -167,14 +160,14 @@
         {
           "id": "24 Hour Clock",
           "x": 160,
-          "y":135,
+          "y": 135,
           "layers": [
-            { "variable_name":  "$_CLOCK_24HR", "use_template": "checkbox" },
+            { "variable_name": "$_CLOCK_24HR", "use_template": "checkbox" },
             { "text": "24 Hour Clock", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_CLOCK_24HR", "use_template": "checkbox" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "variable_name": "$_CLOCK_24HR", "use_template": "checkbox" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "24 Hour Clock", "x": 40, "text_color_palette": "black" }
           ],
           "target": "inline_toggle",
@@ -184,45 +177,3 @@
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

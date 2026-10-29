@@ -1,0 +1,115 @@
+{
+  "screen_name": "settings_ringtone_submenu_explained",
+  "windowed_canvas": true,
+  "cache_canvases": false,
+  "button_map": {
+    "a": "noop",
+    "b": "back",
+    "up": "noop",
+    "down": "noop",
+    "left": "back",
+    "right": "noop"
+  },
+  "background": {
+    "layers": [
+      { "image_path": "assets/merlinhelp.png", "x": 0, "y": 0 }
+    ]
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "menu_items": [
+        {
+          "id": "Alert",
+          "x": 20,
+          "y": 58,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Sound played for", "x": 167, "y": -12, "text_size": "small", "text_color_palette": "black" },
+            { "text": "alerts.", "x": 167, "y": 6, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Boot",
+          "x": 20,
+          "y": 90,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Sound played at", "x": 167, "y": -44, "text_size": "small", "text_color_palette": "black" },
+            { "text": "startup.", "x": 167, "y": -26, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Battery Low",
+          "x": 20,
+          "y": 122,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Sound when the", "x": 167, "y": -76, "text_size": "small", "text_color_palette": "black" },
+            { "text": "battery runs", "x": 167, "y": -58, "text_size": "small", "text_color_palette": "black" },
+            { "text": "low.", "x": 167, "y": -40, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Battery Critical",
+          "x": 20,
+          "y": 154,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Sound at", "x": 167, "y": -108, "text_size": "small", "text_color_palette": "black" },
+            { "text": "critical battery", "x": 167, "y": -90, "text_size": "small", "text_color_palette": "black" },
+            { "text": "level.", "x": 167, "y": -72, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Power Connected",
+          "x": 20,
+          "y": 186,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Sound when the", "x": 167, "y": -140, "text_size": "small", "text_color_palette": "black" },
+            { "text": "charger is", "x": 167, "y": -122, "text_size": "small", "text_color_palette": "black" },
+            { "text": "plugged in.", "x": 167, "y": -104, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_index": 1,
+      "menu_items": [
+        {
+          "id": "Power Disconnected",
+          "x": 20,
+          "y": 58,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Sound when the", "x": 167, "y": -12, "text_size": "small", "text_color_palette": "black" },
+            { "text": "charger is", "x": 167, "y": 6, "text_size": "small", "text_color_palette": "black" },
+            { "text": "unplugged.", "x": 167, "y": 24, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Payload Complete",
+          "x": 20,
+          "y": 90,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Sound when a", "x": 167, "y": -44, "text_size": "small", "text_color_palette": "black" },
+            { "text": "payload finishes", "x": 167, "y": -26, "text_size": "small", "text_color_palette": "black" },
+            { "text": "running.", "x": 167, "y": -8, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Error",
+          "x": 20,
+          "y": 122,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Sound played on", "x": 167, "y": -76, "text_size": "small", "text_color_palette": "black" },
+            { "text": "an error.", "x": 167, "y": -58, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    }
+  ]
+}

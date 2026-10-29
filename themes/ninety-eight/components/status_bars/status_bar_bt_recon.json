@@ -1,0 +1,116 @@
+{
+  "background": {
+    "cache_canvases": false,
+    "layers": [],
+    "background_color": { "r": 0, "g": 0, "b": 0 }
+  },
+  "status_bar_items": {
+    "Time": {
+      "x": 395,
+      "y": 202,
+      "layers": {
+        "default": []
+      },
+      "recolor_palette": "black"
+    },
+    "Battery": {
+      "x": 358,
+      "y": 202,
+      "layers": {
+        "discharging": [
+          { "image_path": "assets/statusbar/dashboard_battery_text.png" }
+        ],
+        "charging_25": [
+          { "image_path": "assets/statusbar/dashboard_battery_charge_25.png" }
+        ],
+        "charging_50": [
+          { "image_path": "assets/statusbar/dashboard_battery_charge_50.png" }
+        ],
+        "charging_75": [
+          { "image_path": "assets/statusbar/dashboard_battery_charge_75.png" }
+        ],
+        "charging_100": [
+          { "image_path": "assets/statusbar/dashboard_battery_charge_100.png" }
+        ],
+        "charged": [
+          { "image_path": "assets/statusbar/dashboard_battery_full.png" }
+        ]
+      }
+    },
+    "GPS": {
+      "x": 290,
+      "y": 202,
+      "layers": {
+        "on": [
+          { "image_path": "assets/statusbar/gps.png" }
+        ],
+        "off": [
+          { "image_path": "assets/statusbar/gps.png", "recolor_palette": "gray" }
+        ],
+        "disconnected": [
+          { "image_path": "assets/statusbar/gps.png", "recolor_palette": "gray" }
+        ],
+        "nofix": [
+          { "image_path": "assets/statusbar/gpsred.png" }
+        ],
+        "weak": [
+          { "image_path": "assets/statusbar/gpsorange.png" }
+        ],
+        "acquiring": [
+          { "image_path": "assets/statusbar/gpsyellow.png" }
+        ],
+        "fix": [
+          { "image_path": "assets/statusbar/gps.png" }
+        ]
+      }
+    },
+    "Wigle": {
+      "x": 260,
+      "y": 202,
+      "layers": {
+        "on": [
+          { "image_path": "assets/statusbar/wigle.png" }
+        ],
+        "off": [
+          { "image_path": "assets/statusbar/wigle.png", "recolor_palette": "gray" }
+        ]
+      }
+    },
+    "BTDB": {
+      "x": 315,
+      "y": 202,
+      "layers": {
+        "on": [
+          { "image_path": "assets/statusbar/database.png" }
+        ],
+        "off": [
+          { "image_path": "assets/statusbar/database.png", "recolor_palette": "gray" }
+        ]
+      }
+    },
+    "BTScan": {
+      "x": 337,
+      "y": 202,
+      "layers": {
+        "off": [
+          { "image_path": "assets/statusbar/bt_scan.png", "recolor_palette": "gray" }
+        ],
+        "both": [
+          { "image_path": "assets/statusbar/bt_mode_both.png", "recolor_palette": "black" }
+        ],
+        "both_active": [
+          { "image_path": "assets/statusbar/bt_mode_both.png", "recolor_palette": "orange" }
+        ],
+        "classic": [
+          { "image_path": "assets/statusbar/bt_mode_classic.png", "recolor_palette": "black" }
+        ],
+        "le": [
+          { "image_path": "assets/statusbar/bt_mode_le.png", "recolor_palette": "black" }
+        ],
+        "le_active": [
+          { "image_path": "assets/statusbar/bt_mode_le.png", "recolor_palette": "orange" }
+        ]
+      }
+    }
+  }
+}

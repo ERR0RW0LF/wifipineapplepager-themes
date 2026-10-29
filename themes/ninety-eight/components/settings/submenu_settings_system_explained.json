@@ -1,0 +1,106 @@
+{
+  "screen_name": "settings_system_submenu_explained",
+  "windowed_canvas": true,
+  "cache_canvases": false,
+  "button_map": {
+    "a": "noop",
+    "b": "back",
+    "up": "noop",
+    "down": "noop",
+    "left": "back",
+    "right": "noop"
+  },
+  "background": {
+    "layers": [
+      { "image_path": "assets/merlinhelp.png", "x": 0, "y": 0 }
+    ]
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "menu_items": [
+        {
+          "id": "Virtual Pager",
+          "x": 20,
+          "y": 58,
+          "layers": [],
+          "selected_layers": [
+            { "text": "A remote virtual", "x": 167, "y": -12, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Pager you reach", "x": 167, "y": 6, "text_size": "small", "text_color_palette": "black" },
+            { "text": "from a browser.", "x": 167, "y": 24, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Root Password",
+          "x": 20,
+          "y": 90,
+          "layers": [],
+          "selected_layers": [
+            { "text": "The device root", "x": 167, "y": -44, "text_size": "small", "text_color_palette": "black" },
+            { "text": "(admin)", "x": 167, "y": -26, "text_size": "small", "text_color_palette": "black" },
+            { "text": "password.", "x": 167, "y": -8, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "SSH",
+          "x": 20,
+          "y": 122,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Allows SSH", "x": 167, "y": -76, "text_size": "small", "text_color_palette": "black" },
+            { "text": "shell access to", "x": 167, "y": -58, "text_size": "small", "text_color_palette": "black" },
+            { "text": "the device.", "x": 167, "y": -40, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "PIN Code",
+          "x": 20,
+          "y": 154,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Requires a PIN", "x": 167, "y": -108, "text_size": "small", "text_color_palette": "black" },
+            { "text": "to unlock the", "x": 167, "y": -90, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Pager.", "x": 167, "y": -72, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "PIN Setup",
+          "x": 20,
+          "y": 186,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Set the unlock", "x": 167, "y": -140, "text_size": "small", "text_color_palette": "black" },
+            { "text": "PIN code.", "x": 167, "y": -122, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_index": 1,
+      "menu_items": [
+        {
+          "id": "Network Time (NTP)",
+          "x": 20,
+          "y": 58,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Syncs the clock", "x": 167, "y": -12, "text_size": "small", "text_color_palette": "black" },
+            { "text": "over the network", "x": 167, "y": 6, "text_size": "small", "text_color_palette": "black" },
+            { "text": "(NTP).", "x": 167, "y": 24, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Factory Reset",
+          "x": 20,
+          "y": 90,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Erases settings", "x": 167, "y": -44, "text_size": "small", "text_color_palette": "black" },
+            { "text": "and restores", "x": 167, "y": -26, "text_size": "small", "text_color_palette": "black" },
+            { "text": "defaults.", "x": 167, "y": -8, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    }
+  ]
+}

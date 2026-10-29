@@ -21,7 +21,7 @@
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 145, "y": 70, "use_template": "option_dialog_string_selected" },
               { "variable_name": "$_LIST_ITEM", "x": 111, "y": 72, "use_template": "radio" },
-			{ "image_path": "assets/settings/listhighlight.png", "x": 140, "y": 68},
+              { "image_path": "assets/settings/listhighlight.png", "x": 140, "y": 68 },
               { "image_path": "assets/payloadlog/scroll_up_indicator.png", "x": 82, "y": 70, "recolor_palette": "medium_gray" }
             ],
             "target": "select",
@@ -43,7 +43,7 @@
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 145, "y": 100, "use_template": "option_dialog_string_selected" },
               { "variable_name": "$_LIST_ITEM", "x": 111, "y": 102, "use_template": "radio" },
-			{ "image_path": "assets/settings/listhighlight.png", "x": 140, "y": 98}
+              { "image_path": "assets/settings/listhighlight.png", "x": 140, "y": 98 }
             ],
             "target": "select",
             "button_map": {
@@ -64,7 +64,7 @@
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 145, "y": 130, "use_template": "option_dialog_string_selected" },
               { "variable_name": "$_LIST_ITEM", "x": 111, "y": 132, "use_template": "radio" },
-			{ "image_path": "assets/settings/listhighlight.png", "x": 140, "y": 128}
+              { "image_path": "assets/settings/listhighlight.png", "x": 140, "y": 128 }
             ],
             "target": "select",
             "button_map": {
@@ -87,7 +87,7 @@
               { "variable_name": "$_LIST_ITEM", "x": 145, "y": 160, "use_template": "option_dialog_string_selected" },
               { "variable_name": "$_LIST_ITEM", "x": 111, "y": 162, "use_template": "radio" },
               { "image_path": "assets/payloadlog/scroll_down_indicator.png", "x": 82, "y": 175, "recolor_palette": "medium_gray" },
-			{ "image_path": "assets/settings/listhighlight.png", "x": 140, "y": 158}
+              { "image_path": "assets/settings/listhighlight.png", "x": 140, "y": 158 }
             ],
             "target": "select",
             "button_map": {
@@ -117,8 +117,11 @@
               { "_comment": "this is just a required cache busting hack", "variable_name": "$_LIST_ITEM" }
             ],
             "selected_layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 343, "y": 90 },
-              { "_comment": "this is just a required cache busting hack", "variable": "$_LIST_ITEM" }
+              { "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 343, "y": 90 },
+              {
+                "_comment": "this is just a required cache busting hack",
+                "variable": "$_LIST_ITEM"
+              }
             ],
             "target": "save",
             "button_map": {
@@ -136,8 +139,11 @@
               { "_comment": "this is just a required cache busting hack", "variable_name": "$_LIST_ITEM" }
             ],
             "selected_layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 343, "y": 123 },
-              { "_comment": "this is just a required cache busting hack", "variable": "$_LIST_ITEM" }
+              { "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 343, "y": 123 },
+              {
+                "_comment": "this is just a required cache busting hack",
+                "variable": "$_LIST_ITEM"
+              }
             ],
             "target": "back",
             "button_map": {
@@ -153,12 +159,7 @@
             "id": "Title",
             "unselectable": true,
             "layers": [
-              {
-                "variable_name": "$_INPUT_NAME",
-                "x": 75,
-                "y": 35,
-                "use_template": "string_title"
-              }
+              { "variable_name": "$_INPUT_NAME", "x": 75, "y": 35, "use_template": "string_title" }
             ]
           }
         ]
