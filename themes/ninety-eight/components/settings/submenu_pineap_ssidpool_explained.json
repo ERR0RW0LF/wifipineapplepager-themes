@@ -1,0 +1,59 @@
+{
+  "screen_name": "pineap_ssidpool_submenu_explained",
+  "windowed_canvas": true,
+  "cache_canvases": false,
+  "button_map": {
+    "a": "noop",
+    "b": "back",
+    "up": "noop",
+    "down": "noop",
+    "left": "back",
+    "right": "noop"
+  },
+  "background": {
+    "layers": [
+      { "image_path": "assets/merlinhelp.png", "x": 0, "y": 0 }
+    ]
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "menu_items": [
+        {
+          "id": "SSID Pool",
+          "x": 20,
+          "y": 58,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Network names", "x": 167, "y": -12, "text_size": "small", "text_color_palette": "black" },
+            { "text": "PineAP can", "x": 167, "y": 6, "text_size": "small", "text_color_palette": "black" },
+            { "text": "impersonate or", "x": 167, "y": 24, "text_size": "small", "text_color_palette": "black" },
+            { "text": "advertise.", "x": 167, "y": 42, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Add Network",
+          "x": 20,
+          "y": 90,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Type an SSID to", "x": 167, "y": -44, "text_size": "small", "text_color_palette": "black" },
+            { "text": "add to the", "x": 167, "y": -26, "text_size": "small", "text_color_palette": "black" },
+            { "text": "pool.", "x": 167, "y": -8, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Clear Pool",
+          "x": 20,
+          "y": 122,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Removes every", "x": 167, "y": -76, "text_size": "small", "text_color_palette": "black" },
+            { "text": "network from", "x": 167, "y": -58, "text_size": "small", "text_color_palette": "black" },
+            { "text": "the SSID pool.", "x": 167, "y": -40, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -15,10 +15,9 @@
           "id": "Save",
           "y": 10,
           "x": 2,
-          "layers": [
-          ],
+          "layers": [],
           "selected_layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 158, "y": 170 }
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 158, "y": 170 }
           ],
           "target": "confirm"
         },
@@ -26,10 +25,9 @@
           "id": "Cancel",
           "y": 10,
           "x": 2,
-          "layers": [
-          ],
+          "layers": [],
           "selected_layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 242, "y": 170 }
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 242, "y": 170 }
           ],
           "target": "back"
         }
@@ -37,4 +35,3 @@
     }
   ]
 }
-

@@ -1,0 +1,129 @@
+{
+  "screen_name": "settings_gps_advanced_explained",
+  "status_bar": "gps",
+  "windowed_canvas": false,
+  "cache_canvases": false,
+  "button_map": {
+    "a": "select",
+    "b": "back",
+    "up": "previous",
+    "down": "next",
+    "left": "back",
+    "right": "noop"
+  },
+  "background": {
+    "layers": [
+      { "image_path": "assets/blank_recon_bg.png", "x": 0, "y": 0 },
+      { "text": "Settings > GPS", "x": 10, "y": 4, "text_size": "small", "text_color_palette": "gray" },
+      { "text": "Advanced", "x": 10, "y": 18, "text_color_palette": "white" },
+      { "image_path": "assets/divright.png", "x": 297, "y": 56 },
+      { "text": "GPSd Compatability Mode Only:", "text_color_palette": "gray", "x": 20, "y": 124, "text_size": "small" }
+    ]
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "menu_items": [
+        {
+          "id": "Service",
+          "x": 20,
+          "y": 50,
+          "layers": [
+            { "variable_name": "$_GPS_NATIVE", "x": 0, "toggle_template": { "enabled": [{ "text": "native", "text_size": "medium", "text_color_palette": "green", "center_text_within": { "draw_bounds": false, "start_x": 192, "end_x": 282, "start_y": 45, "end_y": 71 } }], "disabled": [{ "image_path": "assets/swap.png", "x": 4, "y": 4, "recolor_palette": "gray" }, { "text": "gpsd", "text_size": "medium", "text_color_palette": "blue", "center_text_within": { "draw_bounds": false, "start_x": 192, "end_x": 282, "start_y": 45, "end_y": 71 } }] } },
+            { "text": "GPS Service", "x": -1, "text_color_palette": "red3d" },
+            { "text": "GPS Service", "x": 1, "text_color_palette": "cyan3d" },
+            { "text": "GPS Service", "x": 0, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "variable_name": "$_GPS_NATIVE", "x": 0, "toggle_template": { "enabled": [{ "text": "native", "text_size": "medium", "text_color_palette": "green", "center_text_within": { "draw_bounds": false, "start_x": 192, "end_x": 282, "start_y": 45, "end_y": 71 } }], "disabled": [{ "image_path": "assets/swap.png", "x": 4, "y": 4, "recolor_palette": "gray" }, { "text": "gpsd", "text_size": "medium", "text_color_palette": "blue", "center_text_within": { "draw_bounds": false, "start_x": 192, "end_x": 282, "start_y": 45, "end_y": 71 } }] } },
+            { "text": "GPS Service", "x": -1, "text_color_palette": "cyan3d" },
+            { "text": "GPS Service", "x": 1, "text_color_palette": "red3d" },
+            { "text": "GPS Service", "x": 0, "text_color_palette": "white" },
+            { "text": "GPS manager", "x": 297, "y": 8, "text_size": "small", "text_color_palette": "white" },
+            { "text": "native", "x": 297, "y": 32, "text_size": "small", "text_color_palette": "disabled_light_gray" },
+            { "text": "built-in", "x": 363, "y": 32, "text_size": "small", "text_color_palette": "white" },
+            { "text": "gpsd", "x": 297, "y": 50, "text_size": "small", "text_color_palette": "disabled_light_gray" },
+            { "text": "GPSd daemon", "x": 341, "y": 50, "text_size": "small", "text_color_palette": "white" },
+            { "text": "Native preferred", "x": 297, "y": 86, "text_size": "small", "text_color_palette": "white" },
+            { "text": "gpsd: for tools", "x": 297, "y": 114, "text_size": "small", "text_color_palette": "white" },
+            { "text": "that need GPSd.", "x": 297, "y": 132, "text_size": "small", "text_color_palette": "white" }
+          ],
+          "target": "inline_toggle",
+          "variable": "$_GPS_NATIVE"
+        },
+        {
+          "id": "Port",
+          "x": 20,
+          "y": 82,
+          "layers": [
+            { "image_path": "assets/menu.png" },
+            { "text": "Serial Device", "x": 39, "text_color_palette": "red3d" },
+            { "text": "Serial Device", "x": 41, "text_color_palette": "cyan3d" },
+            { "text": "Serial Device", "x": 40, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/menu.png" },
+            { "text": "Serial Device", "x": 39, "text_color_palette": "cyan3d" },
+            { "text": "Serial Device", "x": 41, "text_color_palette": "red3d" },
+            { "text": "Serial Device", "x": 40, "text_color_palette": "white" },
+            { "text": "The port the GPS", "x": 297, "y": -24, "text_size": "small", "text_color_palette": "white" },
+            { "text": "is plugged into.", "x": 297, "y": -6, "text_size": "small", "text_color_palette": "white" },
+            { "text": "Used by both", "x": 297, "y": 12, "text_size": "small", "text_color_palette": "white" },
+            { "text": "native and gpsd.", "x": 297, "y": 30, "text_size": "small", "text_color_palette": "white" },
+            { "text": "", "x": 296, "y": 106, "text_size": "small", "text_color_palette": "gray" }
+          ],
+          "target": "option_dialog",
+          "variable": "$_GPS_DEVICE"
+        },
+        {
+          "id": "Baud Rate",
+          "x": 20,
+          "y": 150,
+          "layers": [
+            { "image_path": "assets/menu.png" },
+            { "text": "GPSd Baud Rate", "x": 39, "text_color_palette": "red3d" },
+            { "text": "GPSd Baud Rate", "x": 41, "text_color_palette": "cyan3d" },
+            { "text": "GPSd Baud Rate", "x": 40, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/menu.png" },
+            { "text": "GPSd Baud Rate", "x": 39, "text_color_palette": "cyan3d" },
+            { "text": "GPSd Baud Rate", "x": 41, "text_color_palette": "red3d" },
+            { "text": "GPSd Baud Rate", "x": 40, "text_color_palette": "white" },
+            { "text": "Serial speed for", "x": 297, "y": -92, "text_size": "small", "text_color_palette": "white" },
+            { "text": "gpsd mode only.", "x": 297, "y": -74, "text_size": "small", "text_color_palette": "white" },
+            { "text": "Native detects", "x": 297, "y": -40, "text_size": "small", "text_color_palette": "white" },
+            { "text": "it on its own.", "x": 297, "y": -22, "text_size": "small", "text_color_palette": "white" }
+          ],
+          "target": "option_dialog",
+          "variable": "$_GPS_BAUD"
+        },
+        {
+          "id": "restart",
+          "x": 20,
+          "y": 154,
+          "y": 185,
+          "layers": [
+            { "image_path": "assets/start.png" },
+            { "text": "Restart GPSd", "x": 39, "text_color_palette": "red3d" },
+            { "text": "Restart GPSd", "x": 41, "text_color_palette": "cyan3d" },
+            { "text": "Restart GPSd", "x": 40, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/start.png" },
+            { "text": "Restart GPSd", "x": 39, "text_color_palette": "cyan3d" },
+            { "text": "Restart GPSd", "x": 41, "text_color_palette": "red3d" },
+            { "text": "Restart GPSd", "x": 40, "text_color_palette": "white" },
+            { "text": "Restarts the", "x": 297, "y": -127, "text_size": "small", "text_color_palette": "white" },
+            { "text": "GPSd service.", "x": 297, "y": -109, "text_size": "small", "text_color_palette": "white" },
+            { "text": "gpsd mode only.", "x": 297, "y": -60, "text_size": "small", "text_color_palette": "white" },
+            { "text": "For debugging", "x": 297, "y": -78, "text_size": "small", "text_color_palette": "white" },
+            { "text": "Attaching device", "x": 297, "y": -20, "text_size": "small", "text_color_palette": "white" },
+            { "text": "restarts service", "x": 297, "y": -2, "text_size": "small", "text_color_palette": "white" }
+          ],
+          "target": "function_restart_gpsd"
+        }
+      ]
+    }
+  ]
+}

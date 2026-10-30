@@ -1,0 +1,108 @@
+{
+  "screen_name": "pineap_pineap_submenu_explained",
+  "windowed_canvas": true,
+  "cache_canvases": false,
+  "button_map": {
+    "a": "noop",
+    "b": "back",
+    "up": "noop",
+    "down": "noop",
+    "left": "back",
+    "right": "noop"
+  },
+  "background": {
+    "layers": [
+      { "image_path": "assets/merlinhelp.png", "x": 0, "y": 0 }
+    ]
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "menu_items": [
+        {
+          "id": "Mimic Open Networks",
+          "x": 20,
+          "y": 58,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Answers probes", "x": 167, "y": -12, "text_size": "small", "text_color_palette": "black" },
+            { "text": "as the open", "x": 167, "y": 6, "text_size": "small", "text_color_palette": "black" },
+            { "text": "networks devices", "x": 167, "y": 24, "text_size": "small", "text_color_palette": "black" },
+            { "text": "look for, so", "x": 167, "y": 42, "text_size": "small", "text_color_palette": "black" },
+            { "text": "they connect", "x": 167, "y": 60, "text_size": "small", "text_color_palette": "black" },
+            { "text": "here instead.", "x": 167, "y": 78, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Collect Probes",
+          "x": 20,
+          "y": 90,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Auto-adds the", "x": 167, "y": -44, "text_size": "small", "text_color_palette": "black" },
+            { "text": "names devices", "x": 167, "y": -26, "text_size": "small", "text_color_palette": "black" },
+            { "text": "probe for to the", "x": 167, "y": -8, "text_size": "small", "text_color_palette": "black" },
+            { "text": "SSID pool.", "x": 167, "y": 10, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Advertise Networks",
+          "x": 20,
+          "y": 122,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Beacons the SSID", "x": 169, "y": -76, "text_size": "small", "text_color_palette": "black" },
+            { "text": "pool so those", "x": 169, "y": -58, "text_size": "small", "text_color_palette": "black" },
+            { "text": "names show up in", "x": 169, "y": -40, "text_size": "small", "text_color_palette": "black" },
+            { "text": "device scans.", "x": 169, "y": -22, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Needs Open AP", "x": 169, "y": 14, "text_size": "small", "text_color_palette": "black" },
+            { "text": "and Mimic on.", "x": 169, "y": 32, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Randomize Address",
+          "x": 20,
+          "y": 154,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Uses a random", "x": 167, "y": -108, "text_size": "small", "text_color_palette": "black" },
+            { "text": "MAC for the AP,", "x": 167, "y": -90, "text_size": "small", "text_color_palette": "black" },
+            { "text": "so it's not tied", "x": 167, "y": -72, "text_size": "small", "text_color_palette": "black" },
+            { "text": "to the hardware.", "x": 167, "y": -54, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Collect Handshakes",
+          "x": 20,
+          "y": 186,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Captures WPA", "x": 167, "y": -140, "text_size": "small", "text_color_palette": "black" },
+            { "text": "handshakes seen", "x": 167, "y": -122, "text_size": "small", "text_color_palette": "black" },
+            { "text": "nearby, saved", "x": 167, "y": -104, "text_size": "small", "text_color_palette": "black" },
+            { "text": "for offline", "x": 167, "y": -86, "text_size": "small", "text_color_palette": "black" },
+            { "text": "analysis.", "x": 167, "y": -68, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_index": 1,
+      "menu_items": [
+        {
+          "id": "Wigle Mode",
+          "x": 20,
+          "y": 58,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Logs devices", "x": 167, "y": -12, "text_size": "small", "text_color_palette": "black" },
+            { "text": "with GPS to", "x": 167, "y": 6, "text_size": "small", "text_color_palette": "black" },
+            { "text": "WiGLE CSV files", "x": 167, "y": 24, "text_size": "small", "text_color_palette": "black" },
+            { "text": "(WiFi and BT)", "x": 167, "y": 42, "text_size": "small", "text_color_palette": "black" },
+            { "text": "for mapping.", "x": 167, "y": 60, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    }
+  ]
+}

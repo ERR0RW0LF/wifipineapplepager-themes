@@ -1,0 +1,146 @@
+{
+  "screen_name": "settings_network_submenu_explained",
+  "windowed_canvas": true,
+  "cache_canvases": false,
+  "button_map": {
+    "a": "noop",
+    "b": "back",
+    "up": "noop",
+    "down": "noop",
+    "left": "back",
+    "right": "noop"
+  },
+  "background": {
+    "layers": [
+      { "image_path": "assets/merlinhelp.png", "x": 0, "y": 0 }
+    ]
+  },
+  "pages": [
+    {
+      "page_index": 1,
+      "menu_items": [
+        {
+          "id": "Client Mode Toggle",
+          "x": 20,
+          "y": 58,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Connects to an", "x": 167, "y": -12, "text_size": "small", "text_color_palette": "black" },
+            { "text": "upstream Wi-Fi", "x": 167, "y": 6, "text_size": "small", "text_color_palette": "black" },
+            { "text": "access point as", "x": 167, "y": 24, "text_size": "small", "text_color_palette": "black" },
+            { "text": "a client to give", "x": 167, "y": 42, "text_size": "small", "text_color_palette": "black" },
+            { "text": "the Pager access", "x": 167, "y": 60, "text_size": "small", "text_color_palette": "black" },
+            { "text": "to the internet.", "x": 167, "y": 78, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Client Mode Setup",
+          "x": 20,
+          "y": 90,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Wizard to", "x": 167, "y": -44, "text_size": "small", "text_color_palette": "black" },
+            { "text": "configure the", "x": 167, "y": -26, "text_size": "small", "text_color_palette": "black" },
+            { "text": "settings to join", "x": 167, "y": -8, "text_size": "small", "text_color_palette": "black" },
+            { "text": "a Wi-Fi network.", "x": 167, "y": 10, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Management AP Toggle",
+          "x": 20,
+          "y": 122,
+          "layers": [],
+          "selected_layers": [
+            { "text": "The Pager's own", "x": 167, "y": -76, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Wi-Fi AP for", "x": 167, "y": -58, "text_size": "small", "text_color_palette": "black" },
+            { "text": "reaching the", "x": 167, "y": -40, "text_size": "small", "text_color_palette": "black" },
+            { "text": "device's web UI", "x": 167, "y": -22, "text_size": "small", "text_color_palette": "black" },
+            { "text": "and SSH access.", "x": 167, "y": -4, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Management AP Setup",
+          "x": 20,
+          "y": 154,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Wizard to", "x": 167, "y": -108, "text_size": "small", "text_color_palette": "black" },
+            { "text": "configure the", "x": 167, "y": -90, "text_size": "small", "text_color_palette": "black" },
+            { "text": "settings for the", "x": 167, "y": -72, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Pager's", "x": 167, "y": -54, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Management AP.", "x": 167, "y": -36, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Hostname",
+          "x": 20,
+          "y": 186,
+          "layers": [],
+          "selected_layers": [
+            { "text": "The device's", "x": 167, "y": -140, "text_size": "small", "text_color_palette": "black" },
+            { "text": "network", "x": 167, "y": -122, "text_size": "small", "text_color_palette": "black" },
+            { "text": "hostname.", "x": 167, "y": -104, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_index": 0,
+      "menu_items": [
+        {
+          "id": "6 GHz",
+          "x": 20,
+          "y": 58,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Use the 6 GHz", "x": 167, "y": -12, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Wi-Fi radio.", "x": 167, "y": 6, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "5 GHz",
+          "x": 20,
+          "y": 90,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Use the 5 GHz", "x": 167, "y": -44, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Wi-Fi radio.", "x": 167, "y": -26, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "2.4 GHz",
+          "x": 20,
+          "y": 122,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Use the 2.4 GHz", "x": 167, "y": -76, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Wi-Fi radio.", "x": 167, "y": -58, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Bluetooth",
+          "x": 20,
+          "y": 154,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Turns Bluetooth", "x": 167, "y": -108, "text_size": "small", "text_color_palette": "black" },
+            { "text": "on and starts", "x": 167, "y": -90, "text_size": "small", "text_color_palette": "black" },
+            { "text": "the blue5", "x": 167, "y": -72, "text_size": "small", "text_color_palette": "black" },
+            { "text": "scanner.", "x": 167, "y": -54, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Bluetooth Settings",
+          "x": 20,
+          "y": 186,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Opens the blue5", "x": 167, "y": -140, "text_size": "small", "text_color_palette": "black" },
+            { "text": "scanner", "x": 167, "y": -122, "text_size": "small", "text_color_palette": "black" },
+            { "text": "settings.", "x": 167, "y": -104, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    }
+  ]
+}

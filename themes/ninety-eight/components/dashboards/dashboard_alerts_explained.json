@@ -1,0 +1,77 @@
+{
+  "screen_name": "alerts_dashboard_explained",
+  "windowed_canvas": true,
+  "cache_canvases": false,
+  "button_map": {
+    "a": "noop",
+    "b": "back",
+    "up": "noop",
+    "down": "noop",
+    "left": "back",
+    "right": "noop"
+  },
+  "background": {
+    "layers": [
+      { "image_path": "assets/merlinhelpalert.png" }
+    ]
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "menu_items": [
+        {
+          "id": "auth captured",
+          "x": 175,
+          "y": 33,
+          "selected_layers": [
+            { "text": "Payloads that are", "x": 12, "y": 13, "text_size": "small", "text_color_palette": "black" },
+            { "text": "automatically", "x": 12, "y": 31, "text_size": "small", "text_color_palette": "black" },
+            { "text": "executed when a", "x": 12, "y": 49, "text_size": "small", "text_color_palette": "black" },
+            { "text": "client's login is", "x": 12, "y": 67, "text_size": "small", "text_color_palette": "black" },
+            { "text": "captured by the", "x": 12, "y": 85, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Evil WPA AP.", "x": 12, "y": 103, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "deauth flood",
+          "x": 20,
+          "y": 90,
+          "selected_layers": [
+            { "text": "Payloads that are", "x": 167, "y": -44, "text_size": "small", "text_color_palette": "black" },
+            { "text": "automatically", "x": 167, "y": -26, "text_size": "small", "text_color_palette": "black" },
+            { "text": "executed when a", "x": 167, "y": -8, "text_size": "small", "text_color_palette": "black" },
+            { "text": "deauth flood (a", "x": 167, "y": 10, "text_size": "small", "text_color_palette": "black" },
+            { "text": "jamming attack)", "x": 167, "y": 28, "text_size": "small", "text_color_palette": "black" },
+            { "text": "is seen nearby.", "x": 167, "y": 46, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "new client",
+          "x": 20,
+          "y": 122,
+          "selected_layers": [
+            { "text": "Payloads that are", "x": 167, "y": -76, "text_size": "small", "text_color_palette": "black" },
+            { "text": "automatically", "x": 167, "y": -58, "text_size": "small", "text_color_palette": "black" },
+            { "text": "executed when a", "x": 167, "y": -40, "text_size": "small", "text_color_palette": "black" },
+            { "text": "new client joins", "x": 167, "y": -22, "text_size": "small", "text_color_palette": "black" },
+            { "text": "the Pager's", "x": 167, "y": -4, "text_size": "small", "text_color_palette": "black" },
+            { "text": "access point.", "x": 167, "y": 14, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "handshake capture",
+          "x": 20,
+          "y": 154,
+          "selected_layers": [
+            { "text": "Payloads that are", "x": 167, "y": -108, "text_size": "small", "text_color_palette": "black" },
+            { "text": "automatically", "x": 167, "y": -90, "text_size": "small", "text_color_palette": "black" },
+            { "text": "executed when a", "x": 167, "y": -72, "text_size": "small", "text_color_palette": "black" },
+            { "text": "WPA handshake is", "x": 167, "y": -54, "text_size": "small", "text_color_palette": "black" },
+            { "text": "captured from a", "x": 167, "y": -36, "text_size": "small", "text_color_palette": "black" },
+            { "text": "nearby network.", "x": 167, "y": -18, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    }
+  ]
+}

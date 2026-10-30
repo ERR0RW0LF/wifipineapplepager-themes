@@ -1,7 +1,7 @@
 {
   "screen_name": "management_ap_wizard",
   "windowed_canvas": true,
-  "cache_canvases": true,
+  "cache_canvases": false,
   "button_map": {
     "a": "select",
     "b": "back",
@@ -31,140 +31,84 @@
           "x": 111,
           "y": 70,
           "layers": [
-            {
-                "image_path": "assets/keyboard.png",
-                "recolor_palette": "black"
-            },
+            { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
             { "text": "Network Name", "x": 40, "text_color_palette": "black" }
           ],
-            "selected_layers": [
-                {
-                    "image_path": "assets/keyboard.png",
-                    "recolor_palette": "black"
-                },
-                {
-                    "image_path": "assets/settings/bodyhighlight.png",
-                    "x": 35,
-                    "y": -2
-                },
-                {
-                    "text": "Network Name",
-                    "x": 40,
-                    "text_color_palette": "black"
-                }
-            ],
+          "selected_layers": [
+            { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -2 },
+            { "text": "Network Name", "x": 40, "text_color_palette": "black" }
+          ],
           "target": "edit_string_dialog",
           "variable": "$_SETUP_MGMT_AP_SSID"
         },
         {
-            "id": "enc",
-            "x": 111,
-            "y": 105,
-            "layers": [
-                {
-                    "image_path": "assets/menu.png",
-                    "recolor_palette": "black"
-                },
-                {
-                    "text": "Encryption Type",
-                    "x": 40,
-                    "text_color_palette": "black"
-                }
-            ],
-            "selected_layers": [
-                {
-                    "image_path": "assets/menu.png",
-                    "recolor_palette": "black"
-                },
-                {
-                    "image_path": "assets/settings/bodyhighlight.png",
-                    "x": 35,
-                    "y": -2
-                },
-                {
-                    "text": "Encryption Type",
-                    "x": 40,
-                    "text_color_palette": "black"
-                }
-            ],
-            "target": "option_dialog",
-            "variable": "$_SETUP_MGMT_AP_ENCRYPTION_TYPE"
+          "id": "enc",
+          "x": 111,
+          "y": 105,
+          "layers": [
+            { "image_path": "assets/menu.png", "recolor_palette": "black" },
+            { "text": "Encryption Type", "x": 40, "text_color_palette": "black" }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/menu.png", "recolor_palette": "black" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -2 },
+            { "text": "Encryption Type", "x": 40, "text_color_palette": "black" }
+          ],
+          "target": "option_dialog",
+          "variable": "$_SETUP_MGMT_AP_ENCRYPTION_TYPE"
         },
         {
-            "id": "pass",
-            "x": 111,
-            "y": 140,
-            "layers": [
-                {
-                    "image_path": "assets/keyboard.png",
-                    "recolor_palette": "black"
-                },
-                {
-                    "text": "Passphrase",
-                    "x": 40,
-                    "text_color_palette": "black"
-                }
-            ],
-            "selected_layers": [
-                {
-                    "image_path": "assets/keyboard.png",
-                    "recolor_palette": "black"
-                },
-                {
-                    "image_path": "assets/settings/bodyhighlight.png",
-                    "x": 35,
-                    "y": -2
-                },
-                {
-                    "text": "Passphrase",
-                    "x": 40,
-                    "text_color_palette": "black"
-                }
-            ],
-            "target": "edit_string_dialog",
-            "variable": "$_SETUP_MGMT_AP_PASSPHRASE"
+          "id": "pass",
+          "x": 111,
+          "y": 140,
+          "layers": [
+            { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
+            { "text": "Passphrase", "x": 40, "text_color_palette": "black" }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -2 },
+            { "text": "Passphrase", "x": 40, "text_color_palette": "black" }
+          ],
+          "target": "edit_string_dialog",
+          "variable": "$_SETUP_MGMT_AP_PASSPHRASE"
         },
         {
-            "id": "save",
-            "x": 160,
-            "y": 174,
-            "layers": [
-            ],
-            "selected_layers": [
-                {
-                    "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png"
-                }
-            ],
-            "target": "function_save_mgmt_ap",
-            "button_map": {
-                "a": "select",
-                "b": "back",
-                "up": "previous",
-                "down": "goto ssid",
-                "left": "goto clear",
-                "right": "goto clear"
-            }
+          "id": "save",
+          "x": 160,
+          "y": 174,
+          "layers": [],
+          "selected_layers": [
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png" }
+          ],
+          "target": "function_save_mgmt_ap",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "previous",
+            "down": "goto ssid",
+            "left": "goto clear",
+            "right": "goto clear"
+          }
         },
         {
-            "id": "clear",
-            "x": 244,
-            "y": 174,
-            "layers": [
-            ],
-            "selected_layers": [
-                {
-                    "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png"
-                }
-            ],
-            "target": "function_clear_mgmt_ap",
-            "button_map": {
-                "a": "select",
-                "b": "back",
-                "up": "goto pass",
-                "down": "next",
-                "left": "goto save",
-                "right": "goto save"
-            }
+          "id": "clear",
+          "x": 244,
+          "y": 174,
+          "layers": [],
+          "selected_layers": [
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png" }
+          ],
+          "target": "function_clear_mgmt_ap",
+          "button_map": {
+            "a": "select",
+            "b": "back",
+            "up": "goto pass",
+            "down": "next",
+            "left": "goto save",
+            "right": "goto save"
+          }
         }
       ]
     }

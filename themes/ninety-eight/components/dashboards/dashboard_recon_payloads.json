@@ -1,8 +1,8 @@
 {
   "template": {
-    "screen_name": "payloads_dashboard",
+    "screen_name": "recon_payloads_dashboard",
     "status_bar": "default",
-    "windowed_canvas": true,
+    "windowed_canvas": false,
     "cache_canvases": true,
     "button_map": {
       "a": "select",
@@ -27,13 +27,13 @@
             "layers": [
               { "variable_name": "$_LIST_ITEM", "x": 25, "y": 0, "use_template": "recon_payload_title" },
               { "image_path": "assets/folder.png", "x": 0, "y": 2 },
-              { "image_path": "assets/scrollbar_full.png", "x": 448, "y": -8}
+              { "image_path": "assets/scrollbar_full.png", "x": 448, "y": -8 }
             ],
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 25, "y": 0, "use_template": "recon_payload_title_selected" },
-			  { "image_path": "assets/settings/longhighlight.png", "x": 25, "y": 0},
+              { "image_path": "assets/settings/longhighlight.png", "x": 25, "y": 0 },
               { "image_path": "assets/folder_open.png", "x": 0, "y": 2 },
-              { "image_path": "assets/scrollbar_full.png", "x": 448, "y": -8}
+              { "image_path": "assets/scrollbar_full.png", "x": 448, "y": -8 }
             ],
             "target": "recon_payloads_for_category_list",
             "variable": "$_LIST_ITEM",
@@ -56,7 +56,7 @@
             ],
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 25, "y": 0, "use_template": "recon_payload_title_selected" },
-			  { "image_path": "assets/settings/longhighlight.png", "x": 25, "y": 0},
+              { "image_path": "assets/settings/longhighlight.png", "x": 25, "y": 0 },
               { "image_path": "assets/folder_open.png", "x": 0, "y": 2 }
             ],
             "target": "recon_payloads_for_category_list",
@@ -80,7 +80,7 @@
             ],
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 25, "y": 0, "use_template": "recon_payload_title_selected" },
-			  { "image_path": "assets/settings/longhighlight.png", "x": 25, "y": 0},
+              { "image_path": "assets/settings/longhighlight.png", "x": 25, "y": 0 },
               { "image_path": "assets/folder_open.png", "x": 0, "y": 2 }
             ],
             "target": "recon_payloads_for_category_list",
@@ -104,7 +104,7 @@
             ],
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 25, "y": 0, "use_template": "recon_payload_title_selected" },
-			  { "image_path": "assets/settings/longhighlight.png", "x": 25, "y": 0},
+              { "image_path": "assets/settings/longhighlight.png", "x": 25, "y": 0 },
               { "image_path": "assets/folder_open.png", "x": 0, "y": 2 }
             ],
             "target": "recon_payloads_for_category_list",
@@ -124,14 +124,14 @@
             "y": 170,
             "layers": [
               { "variable_name": "$_LIST_ITEM", "x": 25, "y": 0, "use_template": "recon_payload_title" },
-              { "image_path": "assets/scroll_down.png", "x": 450, "y": 13},
+              { "image_path": "assets/scroll_down.png", "x": 450, "y": 13 },
               { "image_path": "assets/folder.png", "x": 0, "y": 2 }
             ],
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 25, "y": 0, "use_template": "recon_payload_title_selected" },
-			  { "image_path": "assets/settings/longhighlight.png", "x": 25, "y": 0},
+              { "image_path": "assets/settings/longhighlight.png", "x": 25, "y": 0 },
               { "image_path": "assets/folder_open.png", "x": 0, "y": 2 },
-              { "image_path": "assets/scroll_down.png", "x": 450, "y": 13}
+              { "image_path": "assets/scroll_down.png", "x": 450, "y": 13 }
             ],
             "target": "recon_payloads_for_category_list",
             "variable": "$_LIST_ITEM",
