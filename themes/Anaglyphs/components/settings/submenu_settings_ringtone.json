@@ -15,13 +15,15 @@
     "layers": [
       { "image_path": "assets/settings_bg.png", "x": 0, "y": 0 },
       { "image_path": "assets/divright.png", "x": 140, "y": 50 },
-      { "text": "General",  "x": 10, "y": 50,  "text_color_palette": "gray" },
-      { "text": "Display",  "x": 10, "y": 85,  "text_color_palette": "gray" },
-      { "text": "Ringtone", "x": 9, "y": 120,  "text_color_palette": "cyan3d" },
-      { "text": "Ringtone", "x": 11, "y": 120,  "text_color_palette": "red3d" },
-      { "text": "Ringtone", "x": 10, "y": 120,  "text_color_palette": "white" },
-      { "text": "Network",  "x": 10, "y": 155, "text_color_palette": "gray" },
-      { "text": "System",   "x": 10, "y": 190, "text_color_palette": "gray" }
+      { "text": "General", "x": 10, "y": 50, "text_color_palette": "gray" },
+      { "text": "Display", "x": 10, "y": 85, "text_color_palette": "gray" },
+      { "text": "Ringtone", "x": 9, "y": 120, "text_color_palette": "cyan3d" },
+      { "text": "Ringtone", "x": 11, "y": 120, "text_color_palette": "red3d" },
+      { "text": "Ringtone", "x": 10, "y": 120, "text_color_palette": "white" },
+      { "text": "Network", "x": 10, "y": 155, "text_color_palette": "gray" },
+      { "text": "System", "x": 10, "y": 190, "text_color_palette": "gray" },
+      { "image_path": "assets/help.png", "x": 447, "y": 27, "recolor_palette": "gray" },
+      { "text": ">", "x": 461, "y": 27, "text_size": "small", "text_color_palette": "gray" }
     ]
   },
   "pages": [
@@ -30,8 +32,8 @@
       "menu_items": [
         {
           "id": "Alert",
-          "x":170,
-          "y":50,
+          "x": 170,
+          "y": 50,
           "layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Alert", "x": 39, "text_color_palette": "red3d" },
@@ -45,12 +47,15 @@
             { "text": "Alert", "x": 40, "text_color_palette": "white" }
           ],
           "target": "option_dialog",
-          "variable": "$_ALERT_RINGTONE"
+          "variable": "$_ALERT_RINGTONE",
+          "button_map": {
+            "right": "target settings_ringtone_submenu_explained Alert"
+          }
         },
         {
           "id": "Boot",
-          "x":170,
-          "y":85,
+          "x": 170,
+          "y": 85,
           "layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Boot", "x": 39, "text_color_palette": "red3d" },
@@ -64,12 +69,15 @@
             { "text": "Boot", "x": 40, "text_color_palette": "white" }
           ],
           "target": "option_dialog",
-          "variable": "$_BOOT_RINGTONE"
+          "variable": "$_BOOT_RINGTONE",
+          "button_map": {
+            "right": "target settings_ringtone_submenu_explained Boot"
+          }
         },
         {
           "id": "Battery Low",
-          "x":170,
-          "y":120,
+          "x": 170,
+          "y": 120,
           "layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Battery Low", "x": 39, "text_color_palette": "red3d" },
@@ -83,12 +91,15 @@
             { "text": "Battery Low", "x": 40, "text_color_palette": "white" }
           ],
           "target": "option_dialog",
-          "variable": "$_BATTERY_LOW_RINGTONE"
+          "variable": "$_BATTERY_LOW_RINGTONE",
+          "button_map": {
+            "right": "target settings_ringtone_submenu_explained Battery Low"
+          }
         },
         {
           "id": "Battery Critical",
-          "x":170,
-          "y":155,
+          "x": 170,
+          "y": 155,
           "layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Battery Critical", "x": 39, "text_color_palette": "red3d" },
@@ -102,28 +113,34 @@
             { "text": "Battery Critical", "x": 40, "text_color_palette": "white" }
           ],
           "target": "option_dialog",
-          "variable": "$_BATTERY_CRITICAL_RINGTONE"
+          "variable": "$_BATTERY_CRITICAL_RINGTONE",
+          "button_map": {
+            "right": "target settings_ringtone_submenu_explained Battery Critical"
+          }
         },
         {
           "id": "Power Connected",
-          "x":170,
-          "y":190,
+          "x": 170,
+          "y": 190,
           "layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Power Connected", "x": 39, "text_color_palette": "red3d" },
             { "text": "Power Connected", "x": 41, "text_color_palette": "cyan3d" },
             { "text": "Power Connected", "x": 40, "text_color_palette": "white" },
-            { "image_path": "assets/down.png", "x": -20, "y": 10}
+            { "image_path": "assets/down.png", "x": -20, "y": 10 }
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Power Connected", "x": 39, "text_color_palette": "cyan3d" },
             { "text": "Power Connected", "x": 41, "text_color_palette": "red3d" },
             { "text": "Power Connected", "x": 40, "text_color_palette": "white" },
-            { "image_path": "assets/down.png", "x": -20, "y": 10}
+            { "image_path": "assets/down.png", "x": -20, "y": 10 }
           ],
           "target": "option_dialog",
-          "variable": "$_POWER_CONNECTED_RINGTONE"
+          "variable": "$_POWER_CONNECTED_RINGTONE",
+          "button_map": {
+            "right": "target settings_ringtone_submenu_explained Power Connected"
+          }
         }
       ]
     },
@@ -132,29 +149,32 @@
       "menu_items": [
         {
           "id": "Power Disconnected",
-          "x":170,
-          "y":50,
+          "x": 170,
+          "y": 50,
           "layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Power Disconnected", "x": 39, "text_color_palette": "red3d" },
             { "text": "Power Disconnected", "x": 41, "text_color_palette": "cyan3d" },
             { "text": "Power Disconnected", "x": 40, "text_color_palette": "white" },
-            { "image_path": "assets/up.png", "x": -20, "y": -4}
+            { "image_path": "assets/up.png", "x": -20, "y": -4 }
           ],
           "selected_layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Power Disconnected", "x": 39, "text_color_palette": "cyan3d" },
             { "text": "Power Disconnected", "x": 41, "text_color_palette": "red3d" },
             { "text": "Power Disconnected", "x": 40, "text_color_palette": "white" },
-            { "image_path": "assets/up.png", "x": -20, "y": -4}
+            { "image_path": "assets/up.png", "x": -20, "y": -4 }
           ],
           "target": "option_dialog",
-          "variable": "$_POWER_DISCONNECTED_RINGTONE"
+          "variable": "$_POWER_DISCONNECTED_RINGTONE",
+          "button_map": {
+            "right": "target settings_ringtone_submenu_explained Power Disconnected"
+          }
         },
         {
           "id": "Payload Complete",
-          "x":170,
-          "y":85,
+          "x": 170,
+          "y": 85,
           "layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Payload Complete", "x": 39, "text_color_palette": "red3d" },
@@ -168,12 +188,15 @@
             { "text": "Payload Complete", "x": 40, "text_color_palette": "white" }
           ],
           "target": "option_dialog",
-          "variable": "$_PAYLOAD_COMPLETE_RINGTONE"
+          "variable": "$_PAYLOAD_COMPLETE_RINGTONE",
+          "button_map": {
+            "right": "target settings_ringtone_submenu_explained Payload Complete"
+          }
         },
         {
           "id": "Error",
-          "x":170,
-          "y":120,
+          "x": 170,
+          "y": 120,
           "layers": [
             { "image_path": "assets/menu.png" },
             { "text": "Error", "x": 39, "text_color_palette": "red3d" },
@@ -187,51 +210,12 @@
             { "text": "Error", "x": 40, "text_color_palette": "white" }
           ],
           "target": "option_dialog",
-          "variable": "$_ERROR_RINGTONE"
+          "variable": "$_ERROR_RINGTONE",
+          "button_map": {
+            "right": "target settings_ringtone_submenu_explained Error"
+          }
         }
       ]
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

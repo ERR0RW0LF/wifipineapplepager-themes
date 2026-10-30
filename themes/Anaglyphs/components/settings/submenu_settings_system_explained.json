@@ -1,0 +1,191 @@
+{
+  "screen_name": "settings_system_submenu_explained",
+  "status_bar": "default",
+  "windowed_canvas": false,
+  "cache_canvases": false,
+  "button_map": {
+    "a": "select",
+    "b": "back",
+    "up": "previous",
+    "down": "next",
+    "left": "back",
+    "right": "noop"
+  },
+  "background": {
+    "layers": [
+      { "image_path": "assets/blank_recon_bg.png", "x": 0, "y": 0 },
+      { "text": "Settings", "x": 10, "y": 4, "text_size": "small", "text_color_palette": "gray" },
+      { "text": "System", "x": 10, "y": 18, "text_color_palette": "white" },
+      { "image_path": "assets/divright.png", "x": 312, "y": 56 }
+    ]
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "menu_items": [
+        {
+          "id": "Virtual Pager",
+          "x": 20,
+          "y": 58,
+          "layers": [
+            { "variable_name": "$_VIRTUAL_PAGER_ENABLED", "use_template": "toggle" },
+            { "text": "Virtual Pager", "x": 39, "text_color_palette": "red3d" },
+            { "text": "Virtual Pager", "x": 41, "text_color_palette": "cyan3d" },
+            { "text": "Virtual Pager", "x": 40, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "variable_name": "$_VIRTUAL_PAGER_ENABLED", "use_template": "toggle" },
+            { "text": "Virtual Pager", "x": 39, "text_color_palette": "cyan3d" },
+            { "text": "Virtual Pager", "x": 41, "text_color_palette": "red3d" },
+            { "text": "Virtual Pager", "x": 40, "text_color_palette": "white" },
+            { "text": "A remote virtual", "x": 310, "y": 0, "text_size": "small", "text_color_palette": "white" },
+            { "text": "Pager you reach", "x": 310, "y": 18, "text_size": "small", "text_color_palette": "white" },
+            { "text": "from a browser.", "x": 310, "y": 36, "text_size": "small", "text_color_palette": "white" }
+          ],
+          "target": "inline_toggle",
+          "variable": "$_VIRTUAL_PAGER_ENABLED"
+        },
+        {
+          "id": "Root Password",
+          "x": 20,
+          "y": 90,
+          "layers": [
+            { "image_path": "assets/keyboard.png", "x": 3, "y": 4 },
+            { "text": "Root Password", "x": 39, "text_color_palette": "red3d" },
+            { "text": "Root Password", "x": 41, "text_color_palette": "cyan3d" },
+            { "text": "Root Password", "x": 40, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/keyboard.png" },
+            { "text": "Root Password", "x": 39, "text_color_palette": "cyan3d" },
+            { "text": "Root Password", "x": 41, "text_color_palette": "red3d" },
+            { "text": "Root Password", "x": 40, "text_color_palette": "white" },
+            { "text": "The device root", "x": 310, "y": -32, "text_size": "small", "text_color_palette": "white" },
+            { "text": "(admin)", "x": 310, "y": -14, "text_size": "small", "text_color_palette": "white" },
+            { "text": "password.", "x": 310, "y": 4, "text_size": "small", "text_color_palette": "white" }
+          ],
+          "target": "edit_string_dialog",
+          "variable": "$_SYSTEM_PASSWORD"
+        },
+        {
+          "id": "SSH",
+          "x": 20,
+          "y": 122,
+          "layers": [
+            { "variable_name": "$_SSH_ENABLED", "use_template": "toggle" },
+            { "text": "SSH", "x": 39, "text_color_palette": "red3d" },
+            { "text": "SSH", "x": 41, "text_color_palette": "cyan3d" },
+            { "text": "SSH", "x": 40, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "variable_name": "$_SSH_ENABLED", "use_template": "toggle" },
+            { "text": "SSH", "x": 39, "text_color_palette": "cyan3d" },
+            { "text": "SSH", "x": 41, "text_color_palette": "red3d" },
+            { "text": "SSH", "x": 40, "text_color_palette": "white" },
+            { "text": "Allows SSH", "x": 310, "y": -64, "text_size": "small", "text_color_palette": "white" },
+            { "text": "shell access to", "x": 310, "y": -46, "text_size": "small", "text_color_palette": "white" },
+            { "text": "the device.", "x": 310, "y": -28, "text_size": "small", "text_color_palette": "white" }
+          ],
+          "target": "inline_toggle",
+          "variable": "$_SSH_ENABLED"
+        },
+        {
+          "id": "PIN Code",
+          "x": 20,
+          "y": 154,
+          "layers": [
+            { "variable_name": "$_PIN_ENABLED", "use_template": "toggle" },
+            { "text": "PIN Code", "x": 39, "text_color_palette": "red3d" },
+            { "text": "PIN Code", "x": 41, "text_color_palette": "cyan3d" },
+            { "text": "PIN Code", "x": 40, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "variable_name": "$_PIN_ENABLED", "use_template": "toggle" },
+            { "text": "PIN Code", "x": 39, "text_color_palette": "cyan3d" },
+            { "text": "PIN Code", "x": 41, "text_color_palette": "red3d" },
+            { "text": "PIN Code", "x": 40, "text_color_palette": "white" },
+            { "text": "Requires a PIN", "x": 310, "y": -96, "text_size": "small", "text_color_palette": "white" },
+            { "text": "to unlock the", "x": 310, "y": -78, "text_size": "small", "text_color_palette": "white" },
+            { "text": "Pager.", "x": 310, "y": -60, "text_size": "small", "text_color_palette": "white" }
+          ],
+          "target": "inline_toggle",
+          "variable": "$_PIN_ENABLED"
+        },
+        {
+          "id": "PIN Setup",
+          "x": 20,
+          "y": 186,
+          "layers": [
+            { "image_path": "assets/keyboard.png" },
+            { "text": "PIN Setup", "x": 39, "text_color_palette": "red3d" },
+            { "text": "PIN Setup", "x": 41, "text_color_palette": "cyan3d" },
+            { "text": "PIN Setup", "x": 40, "text_color_palette": "white" },
+            { "image_path": "assets/down.png", "x": -16, "y": 10 }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/keyboard.png" },
+            { "text": "PIN Setup", "x": 39, "text_color_palette": "cyan3d" },
+            { "text": "PIN Setup", "x": 41, "text_color_palette": "red3d" },
+            { "text": "PIN Setup", "x": 40, "text_color_palette": "white" },
+            { "image_path": "assets/down.png", "x": -16, "y": 10 },
+            { "text": "PIN Setup", "x": 40, "text_color_palette": "yellow" },
+            { "text": "Set the unlock", "x": 310, "y": -128, "text_size": "small", "text_color_palette": "gray" },
+            { "text": "PIN code.", "x": 310, "y": -110, "text_size": "small", "text_color_palette": "gray" }
+          ],
+          "target": "edit_number_dialog",
+          "variable": "$_SYSTEM_PIN"
+        }
+      ]
+    },
+    {
+      "page_index": 1,
+      "menu_items": [
+        {
+          "id": "Network Time (NTP)",
+          "x": 20,
+          "y": 58,
+          "layers": [
+            { "variable_name": "$_NTP_ENABLED", "use_template": "toggle" },
+            { "text": "Network Time (NTP)", "x": 39, "text_color_palette": "red3d" },
+            { "text": "Network Time (NTP)", "x": 41, "text_color_palette": "cyan3d" },
+            { "text": "Network Time (NTP)", "x": 40, "text_color_palette": "white" },
+            { "image_path": "assets/up.png", "x": -16, "y": -4 }
+          ],
+          "selected_layers": [
+            { "variable_name": "$_NTP_ENABLED", "use_template": "toggle" },
+            { "text": "Network Time (NTP)", "x": 39, "text_color_palette": "cyan3d" },
+            { "text": "Network Time (NTP)", "x": 41, "text_color_palette": "red3d" },
+            { "text": "Network Time (NTP)", "x": 40, "text_color_palette": "white" },
+            { "image_path": "assets/up.png", "x": -16, "y": -4 },
+            { "text": "Syncs the clock", "x": 310, "y": 0, "text_size": "small", "text_color_palette": "gray" },
+            { "text": "over the network", "x": 310, "y": 18, "text_size": "small", "text_color_palette": "gray" },
+            { "text": "(NTP).", "x": 310, "y": 36, "text_size": "small", "text_color_palette": "gray" }
+          ],
+          "target": "inline_toggle",
+          "variable": "$_NTP_ENABLED"
+        },
+        {
+          "id": "Factory Reset",
+          "x": 20,
+          "y": 90,
+          "layers": [
+            { "image_path": "assets/warning.png" },
+            { "text": "Factory Reset", "x": 39, "text_color_palette": "red3d" },
+            { "text": "Factory Reset", "x": 41, "text_color_palette": "cyan3d" },
+            { "text": "Factory Reset", "x": 40, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/warning.png" },
+            { "text": "Factory Reset", "x": 39, "text_color_palette": "cyan3d" },
+            { "text": "Factory Reset", "x": 41, "text_color_palette": "red3d" },
+            { "text": "Factory Reset", "x": 40, "text_color_palette": "white" },
+            { "text": "Erases settings", "x": 310, "y": -32, "text_size": "small", "text_color_palette": "gray" },
+            { "text": "and restores", "x": 310, "y": -14, "text_size": "small", "text_color_palette": "gray" },
+            { "text": "defaults.", "x": 310, "y": 4, "text_size": "small", "text_color_palette": "gray" }
+          ],
+          "target": "function_factory_reset"
+        }
+      ]
+    }
+  ]
+}

@@ -15,13 +15,13 @@
     "layers": [
       { "image_path": "assets/settings_bg.png", "x": 0, "y": 0 },
       { "image_path": "assets/divright.png", "x": 140, "y": 50 },
-      { "text": "Clock", "x": 10, "y": 50,  "text_color_palette": "gray" },
-      { "text": "GPS",       "x": 10, "y": 85,  "text_color_palette": "gray" },
-      { "text": "Updates",   "x": 10, "y": 120, "text_color_palette": "gray" },
-      { "text": "Help", 	"x": 9, "y": 155,  "text_color_palette": "cyan3d" },
-      { "text": "Help", 	"x": 11, "y": 155,  "text_color_palette": "red3d" },
-      { "text": "Help", 	"x": 10, "y": 155,  "text_color_palette": "white" },
-      { "text": "About",     "x": 10, "y": 190, "text_color_palette": "gray" }
+      { "text": "Clock", "x": 10, "y": 50, "text_color_palette": "gray" },
+      { "text": "GPS", "x": 10, "y": 85, "text_color_palette": "gray" },
+      { "text": "Updates", "x": 10, "y": 120, "text_color_palette": "gray" },
+      { "text": "Help", "x": 9, "y": 155, "text_color_palette": "cyan3d" },
+      { "text": "Help", "x": 11, "y": 155, "text_color_palette": "red3d" },
+      { "text": "Help", "x": 10, "y": 155, "text_color_palette": "white" },
+      { "text": "About", "x": 10, "y": 190, "text_color_palette": "gray" }
     ]
   },
   "pages": [
@@ -30,8 +30,8 @@
       "menu_items": [
         {
           "id": "Tutorial",
-          "x":170,
-          "y":50,
+          "x": 170,
+          "y": 50,
           "layers": [
             { "image_path": "assets/wizard.png" },
             { "text": "Tutorial", "x": 39, "text_color_palette": "red3d" },
@@ -48,8 +48,8 @@
         },
         {
           "id": "Regulatory",
-          "x":170,
-          "y":85,
+          "x": 170,
+          "y": 85,
           "layers": [
             { "image_path": "assets/info.png" },
             { "text": "FCC ID: 2A52Y-MK1", "x": 39, "text_color_palette": "red3d" },
@@ -66,8 +66,8 @@
         },
         {
           "id": "License Agreement",
-          "x":170,
-          "y":120,
+          "x": 170,
+          "y": 120,
           "layers": [
             { "image_path": "assets/info.png" },
             { "text": "License Agreement", "x": 39, "text_color_palette": "red3d" },
@@ -84,8 +84,8 @@
         },
         {
           "id": "Open Source Licenses",
-          "x":170,
-          "y":155,
+          "x": 170,
+          "y": 155,
           "layers": [
             { "image_path": "assets/info.png" },
             { "text": "Open Source Licenses", "x": 39, "text_color_palette": "red3d" },
@@ -102,8 +102,8 @@
         },
         {
           "id": "Help",
-          "x":170,
-          "y":190,
+          "x": 170,
+          "y": 190,
           "layers": [
             { "image_path": "assets/info.png" },
             { "text": "Help", "x": 39, "text_color_palette": "red3d" },
@@ -121,5 +121,4 @@
       ]
     }
   ]
-
 }

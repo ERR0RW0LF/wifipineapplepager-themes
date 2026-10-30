@@ -1,6 +1,6 @@
 {
   "screen_name": "pager_portal_themes_dashboard",
-  "status_bar": "default",
+  "status_bar": "min",
   "windowed_canvas": false,
   "cache_canvases": false,
   "background": {
@@ -20,9 +20,9 @@
           "unselectable": true,
           "id": "Coming soon",
           "layers": [
-			  { "text": "Coming soon", "text_size": "large", "text_color_palette": "cyan3d", "x": 158, "y": 33 },
-			  { "text": "Coming soon", "text_size": "large", "text_color_palette": "red3d", "x": 162, "y": 33 },
-			  { "text": "Coming soon", "text_size": "large", "text_color_palette": "white", "x": 160, "y": 33 }
+            { "text": "Coming soon", "text_size": "large", "text_color_palette": "cyan3d", "x": 158, "y": 33 },
+            { "text": "Coming soon", "text_size": "large", "text_color_palette": "red3d", "x": 162, "y": 33 },
+            { "text": "Coming soon", "text_size": "large", "text_color_palette": "white", "x": 160, "y": 33 }
           ],
           "x": 60,
           "y": 10
@@ -35,8 +35,7 @@
           ],
           "selected_layers": [
             { "text": "Browse Themes", "x": 160, "y": 60, "text_color_palette": "gray" },
-            { "image_path": "assets/alerts_dashboard/sub.png","x": 125, "y": 65 }
-
+            { "image_path": "assets/alerts_dashboard/sub.png", "x": 125, "y": 65 }
           ],
           "x": 60,
           "y": 20
@@ -49,8 +48,7 @@
           ],
           "selected_layers": [
             { "text": "Installed Themes", "x": 160, "y": 87, "text_color_palette": "gray" },
-            { "image_path": "assets/alerts_dashboard/sub.png","x": 125, "y": 92 }
-
+            { "image_path": "assets/alerts_dashboard/sub.png", "x": 125, "y": 92 }
           ],
           "x": 60,
           "y": 20
