@@ -76,11 +76,11 @@
           "x": 120,
           "y": 177,
           "layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_deselected.png", "x": 27 },
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_deselected.png", "x": 27 },
             { "text": "Save", "x": 41, "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 27 },
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 27 },
             { "text": "Save", "x": 41, "text_color_palette": "disabled_dark_gray" }
           ],
           "target": "function_save_wifi_client_mode",
@@ -98,11 +98,11 @@
           "x": 240,
           "y": 177,
           "layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_deselected.png", "x": 27 },
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_deselected.png", "x": 27 },
             { "text": "Clear", "x": 36, "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 27 },
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 27 },
             { "text": "Clear", "x": 36, "text_color_palette": "disabled_dark_gray" }
           ],
           "target": "function_clear_wifi_client_mode",

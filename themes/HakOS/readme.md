@@ -1,22 +1,22 @@
-# Anaglyphs
+# HakOS
 - Author: Cribbit
-- Version: 1.1.3
+- Version: 2.0.0
 
 ## Discription
-Anaglyphs is a bold visual theme built around the iconic red and cyan 3D aesthetic is designed to create a 3D effect. 
-When viewed through classic red/cyan 3D glasses, each eye sees a different layer and the brain merges them into a single image with depth.
+HakOS uses a drop down menu for navigation.
 
 ![Demo](demo.gif)
 
 ## Change Log
 | Version | Changes         |
 | ------- | --------------- |
-| 1.0.8     | Initial release |
-| 1.1.3     | Update status bar etc|
+| 1.1.0     | Initial release |
+| 1.1.3     | Update status bar for wifi |
+| 2.0.0     | Update for 2.0.0 / Theme 0.9 |
 
 ## Installation
 
-1. Copy the `Anaglyphs` folder to `/root/themes/` on your pager
+1. Copy the `HakOS` folder to `/root/themes/` on your pager
 2. Navigate to **Settings > General > Theme**
-3. Select **Anaglyphs**
+3. Select **HakOS**
 4. Enjoy!

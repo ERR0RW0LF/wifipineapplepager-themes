@@ -13,7 +13,9 @@
   },
   "background": {
     "layers": [
-      { "image_path": "assets/settings_bg.png", "x": 0, "y": 0 }
+      { "image_path": "assets/blank_recon_bg.png", "x": 0, "y": 0 },
+      { "text": "Settings", "x": 10, "y": 4, "text_size": "small", "text_color_palette": "gray" },
+      { "text": "About", "x": 10, "y": 18, "text_color_palette": "white" }
     ]
   },
   "pages": [
@@ -22,29 +24,15 @@
       "menu_items": [
         {
           "id": "Uptime",
-          "x":10,
-          "y":50,
+          "x": 20,
+          "y": 50,
           "layers": [
             { "text": "Uptime:", "text_color_palette": "blue" },
-            { "variable_name": "$_UPTIME", "x": 120, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_UPTIME", "x": 120, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } }
           ],
           "selected_layers": [
             { "text": "Uptime:", "text_color_palette": "blue" },
-            { "variable_name": "$_UPTIME", "x": 120, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_UPTIME", "x": 120, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } }
           ],
           "target": "developer_menu",
           "button_map": {
@@ -58,112 +46,56 @@
         },
         {
           "id": "Battery",
-          "x":10,
-          "y":85,
+          "x": 20,
+          "y": 85,
           "layers": [
             { "text": "Battery:", "text_color_palette": "blue" },
-            { "variable_name": "$_BATTERY_INFO", "x": 110, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 16,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_BATTERY_INFO", "x": 110, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 16, "wrap_text": false, "max_lines": 1 } }
           ],
           "selected_layers": [
             { "text": "Battery:", "text_color_palette": "blue" },
-            { "variable_name": "$_BATTERY_INFO", "x": 110, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 16,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_BATTERY_INFO", "x": 110, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 16, "wrap_text": false, "max_lines": 1 } }
           ]
         },
         {
           "id": "Temperature",
-          "x":10,
-          "y":120,
+          "x": 20,
+          "y": 120,
           "layers": [
             { "text": "Temperature:", "text_color_palette": "blue" },
-            { "variable_name": "$_TEMP", "x": 180, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_TEMP", "x": 180, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } }
           ],
           "selected_layers": [
             { "text": "Temperature:", "text_color_palette": "blue" },
-            { "variable_name": "$_TEMP", "x": 180, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_TEMP", "x": 180, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } }
           ]
         },
         {
           "id": "Disk Space",
-          "x":10,
-          "y":155,
+          "x": 20,
+          "y": 155,
           "layers": [
             { "text": "Free Disk Space:", "text_color_palette": "blue" },
-            { "variable_name": "$_STORAGE", "x": 215, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_STORAGE", "x": 215, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } }
           ],
           "selected_layers": [
             { "text": "Free Disk Space:", "text_color_palette": "blue" },
-            { "variable_name": "$_STORAGE", "x": 215, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_STORAGE", "x": 215, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } }
           ]
         },
         {
           "id": "wlan0cli IP",
-          "x":10,
-          "y":190,
+          "x": 20,
+          "y": 190,
           "layers": [
             { "text": "WAN IP:", "text_color_palette": "blue" },
-            { "variable_name": "$_WLAN0CLI_IP", "x": 100, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 17,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            },
-            { "image_path": "assets/down.png", "x": 440, "y": 10, "recolor_palette": "gray"}
+            { "variable_name": "$_WLAN0CLI_IP", "x": 100, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 17, "wrap_text": false, "max_lines": 1 } },
+            { "image_path": "assets/down.png", "x": -16, "y": 16, "recolor_palette": "gray" }
           ],
           "selected_layers": [
             { "text": "WAN IP:", "text_color_palette": "blue" },
-            { "variable_name": "$_WLAN0CLI_IP", "x": 100, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 17,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            },
-            { "image_path": "assets/down.png", "x": 440, "y": 10, "recolor_palette": "gray"}
+            { "variable_name": "$_WLAN0CLI_IP", "x": 100, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 17, "wrap_text": false, "max_lines": 1 } },
+            { "image_path": "assets/down.png", "x": -16, "y": 16, "recolor_palette": "gray" }
           ]
         }
       ]
@@ -173,31 +105,17 @@
       "menu_items": [
         {
           "id": "Loot",
-          "x":10,
-          "y":50,
+          "x": 20,
+          "y": 50,
           "layers": [
             { "text": "Loot:", "text_color_palette": "blue" },
-            { "variable_name": "$_LOOT", "x": 80, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            },
-            { "image_path": "assets/up.png", "x": 440, "y": -4, "recolor_palette": "gray"}
+            { "variable_name": "$_LOOT", "x": 80, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } },
+            { "image_path": "assets/up.png", "x": -16, "y": 2, "recolor_palette": "gray" }
           ],
           "selected_layers": [
             { "text": "Loot:", "text_color_palette": "blue" },
-            { "variable_name": "$_LOOT", "x": 80, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            },
-            { "image_path": "assets/up.png", "x": 440, "y": -4, "recolor_palette": "gray"}
+            { "variable_name": "$_LOOT", "x": 80, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } },
+            { "image_path": "assets/up.png", "x": -16, "y": 2, "recolor_palette": "gray" }
           ],
           "button_map": {
             "a": "select",
@@ -210,99 +128,31 @@
         },
         {
           "id": "Packages",
-          "x":10,
-          "y":85,
+          "x": 20,
+          "y": 85,
           "layers": [
             { "text": "Packages:", "text_color_palette": "blue" },
-            { "variable_name": "$_PACKAGES", "x": 120, "string_template":
-              {
-                "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_PACKAGES", "x": 120, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } }
           ],
           "selected_layers": [
             { "text": "Packages:", "text_color_palette": "blue" },
-            { "variable_name": "$_PACKAGES", "x": 120,  "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_PACKAGES", "x": 120, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } }
           ]
         },
         {
           "id": "Handshakes",
-          "x":10,
-          "y":120,
+          "x": 20,
+          "y": 120,
           "layers": [
             { "text": "Handshakes:", "text_color_palette": "blue" },
-            { "variable_name": "$_HANDSHAKES", "x": 150, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_HANDSHAKES", "x": 150, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } }
           ],
           "selected_layers": [
             { "text": "Handshakes:", "text_color_palette": "blue" },
-            { "variable_name": "$_HANDSHAKES", "x": 150, "string_template":
-              { "text_size": "medium",
-                "text_color_palette": "white",
-                "max_chars": 12,
-                "wrap_text": false,
-                "max_lines": 1
-              }
-            }
+            { "variable_name": "$_HANDSHAKES", "x": 150, "string_template": { "text_size": "medium", "text_color_palette": "white", "max_chars": 12, "wrap_text": false, "max_lines": 1 } }
           ]
         }
       ]
     }
   ]
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

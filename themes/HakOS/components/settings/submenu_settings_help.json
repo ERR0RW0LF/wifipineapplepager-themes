@@ -13,7 +13,9 @@
   },
   "background": {
     "layers": [
-      { "image_path": "assets/settings_bg.png", "x": 0, "y": 0 }
+      { "image_path": "assets/blank_recon_bg.png", "x": 0, "y": 0 },
+      { "text": "Settings", "x": 10, "y": 4, "text_size": "small", "text_color_palette": "gray" },
+      { "text": "Help", "x": 10, "y": 18, "text_color_palette": "white" }
     ]
   },
   "pages": [
@@ -22,8 +24,8 @@
       "menu_items": [
         {
           "id": "Tutorial",
-          "x":10,
-          "y":50,
+          "x": 20,
+          "y": 50,
           "layers": [
             { "image_path": "assets/wizard.png" },
             { "text": "Tutorial", "x": 40, "text_color_palette": "white" }
@@ -36,8 +38,8 @@
         },
         {
           "id": "Regulatory",
-          "x":10,
-          "y":85,
+          "x": 20,
+          "y": 85,
           "layers": [
             { "image_path": "assets/info.png" },
             { "text": "FCC ID: 2A52Y-MK1", "x": 40, "text_color_palette": "white" }
@@ -50,8 +52,8 @@
         },
         {
           "id": "License Agreement",
-          "x":10,
-          "y":120,
+          "x": 20,
+          "y": 120,
           "layers": [
             { "image_path": "assets/info.png" },
             { "text": "License Agreement", "x": 40, "text_color_palette": "white" }
@@ -64,8 +66,8 @@
         },
         {
           "id": "Open Source Licenses",
-          "x":10,
-          "y":155,
+          "x": 20,
+          "y": 155,
           "layers": [
             { "image_path": "assets/info.png" },
             { "text": "Open Source Licenses", "x": 40, "text_color_palette": "white" }
@@ -78,8 +80,8 @@
         },
         {
           "id": "Help",
-          "x":10,
-          "y":190,
+          "x": 20,
+          "y": 190,
           "layers": [
             { "image_path": "assets/info.png" },
             { "text": "Help", "x": 40, "text_color_palette": "white" }
@@ -93,5 +95,4 @@
       ]
     }
   ]
-
 }

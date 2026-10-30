@@ -16,12 +16,12 @@
           "y": 10,
           "x": 2,
           "layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_deselected.png", "x": 160, "y": 183 },
-			      { "text": "OK", "x": 189, "y": 183, "text_size": "medium", "text_color_palette": "white" }
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_deselected.png", "x": 160, "y": 183 },
+            { "text": "OK", "x": 189, "y": 183, "text_size": "medium", "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 160, "y": 183 },
-			      { "text": "OK", "x": 189, "y": 183, "text_size": "medium", "text_color_palette": "disabled_dark_gray" }
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 160, "y": 183 },
+            { "text": "OK", "x": 189, "y": 183, "text_size": "medium", "text_color_palette": "disabled_dark_gray" }
           ],
           "target": "confirm"
         },
@@ -30,12 +30,12 @@
           "y": 10,
           "x": 2,
           "layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_deselected.png", "x": 252, "y": 183 },
-			      { "text": "Cancel", "x": 254, "y": 183, "text_size": "medium", "text_color_palette": "white" }
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_deselected.png", "x": 252, "y": 183 },
+            { "text": "Cancel", "x": 254, "y": 183, "text_size": "medium", "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "image_path":  "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 252, "y": 183 },
-			      { "text": "Cancel", "x": 254, "y": 183, "text_size": "medium", "text_color_palette": "disabled_dark_gray" }
+            { "image_path": "assets/confirmation_dialog/generic_confirmation_button_selected.png", "x": 252, "y": 183 },
+            { "text": "Cancel", "x": 254, "y": 183, "text_size": "medium", "text_color_palette": "disabled_dark_gray" }
           ],
           "target": "back"
         }
@@ -43,4 +43,3 @@
     }
   ]
 }
-

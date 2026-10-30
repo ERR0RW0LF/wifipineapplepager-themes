@@ -21,14 +21,14 @@
       "menu_items": [
         {
           "id": "6ghz",
-          "x":180,
-          "y":60,
+          "x": 110,
+          "y": 35,
           "layers": [
-            { "variable_name":  "$_6Ghz_ENABLED", "use_template": "toggle" },
+            { "variable_name": "$_6Ghz_ENABLED", "use_template": "toggle" },
             { "text": "6Ghz", "x": 40, "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_6Ghz_ENABLED", "use_template": "toggle" },
+            { "variable_name": "$_6Ghz_ENABLED", "use_template": "toggle" },
             { "text": "6Ghz", "x": 40, "text_color_palette": "blue" }
           ],
           "target": "inline_toggle",
@@ -36,14 +36,14 @@
         },
         {
           "id": "5ghz",
-          "x":180,
-          "y":95,
+          "x": 110,
+          "y": 70,
           "layers": [
-            { "variable_name":  "$_5Ghz_ENABLED", "use_template": "toggle" },
+            { "variable_name": "$_5Ghz_ENABLED", "use_template": "toggle" },
             { "text": "5Ghz", "x": 40, "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_5Ghz_ENABLED", "use_template": "toggle" },
+            { "variable_name": "$_5Ghz_ENABLED", "use_template": "toggle" },
             { "text": "5Ghz", "x": 40, "text_color_palette": "blue" }
           ],
           "target": "inline_toggle",
@@ -51,54 +51,49 @@
         },
         {
           "id": "2.4Ghz",
-          "x":180,
-          "y":130,
+          "x": 110,
+          "y": 105,
           "layers": [
-            { "variable_name":  "$_2.4Ghz_ENABLED", "use_template": "toggle" },
+            { "variable_name": "$_2.4Ghz_ENABLED", "use_template": "toggle" },
             { "text": "2.4Ghz", "x": 40, "text_color_palette": "white" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_2.4Ghz_ENABLED", "use_template": "toggle" },
+            { "variable_name": "$_2.4Ghz_ENABLED", "use_template": "toggle" },
             { "text": "2.4Ghz", "x": 40, "text_color_palette": "blue" }
           ],
           "target": "inline_toggle",
           "variable": "$_2.4Ghz_ENABLED"
+        },
+        {
+          "id": "Bluetooth",
+          "x": 110,
+          "y": 140,
+          "layers": [
+            { "variable_name": "$_BLUETOOTH_ENABLED", "use_template": "toggle" },
+            { "text": "Bluetooth", "x": 40, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "variable_name": "$_BLUETOOTH_ENABLED", "use_template": "toggle" },
+            { "text": "Bluetooth", "x": 40, "text_color_palette": "blue" }
+          ],
+          "target": "inline_toggle",
+          "variable": "$_BLUETOOTH_ENABLED"
+        },
+        {
+          "id": "Bluetooth Settings",
+          "x": 110,
+          "y": 175,
+          "layers": [
+            { "image_path": "assets/menu.png" },
+            { "text": "Bluetooth Settings", "x": 40, "text_color_palette": "white" }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/menu.png" },
+            { "text": "Bluetooth Settings", "x": 40, "text_color_palette": "blue" }
+          ],
+          "target": "settings_bluetooth_submenu"
         }
       ]
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
