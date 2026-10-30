@@ -1,12 +1,13 @@
 # Old Skool Green
 - Author: Cribbit
-- Version: 1.0.8
+- Version: 2.0.0
 
 ## Change Log
-| Version | Changes          |
-| ------- | ---------------- |
-| 1.0     | Initial release  |
-| 1.0.8   | Updated to 1.0.8 |
+| Version | Changes                         |
+| ------- | ------------------------------- |
+| 1.0.0   | Initial release                 |
+| 1.0.8   | Update for firmware 1.0.8       |
+| 2.0.0   | Update for 2.0.0 / Theme 0.9    |
 
 ## Installation
 

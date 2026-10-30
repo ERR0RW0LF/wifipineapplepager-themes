@@ -20,14 +20,13 @@
   "menu_items": [
     {
       "id": "ALERTS",
-      "layers": [
-      ],
+      "layers": [],
       "selected_layers": [
-        { "text": "PINEAP", "x": 255, "y":  38, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "SETTINGS", "x": 260, "y":  76, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "ALERTS", "x": 262, "y":  113, "text_size": "large", "text_color_palette": "yellow" },
-        { "text": "PAYLOADS", "x": 246, "y":  161, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "RECON", "x": 235, "y":  195, "text_size": "medium", "text_color_palette": "green" }
+        { "text": "SETTINGS", "x": 255, "y": 38, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "PORTAL", "x": 260, "y": 76, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "ALERTS", "x": 262, "y": 113, "text_size": "large", "text_color_palette": "yellow" },
+        { "text": "PAYLOADS", "x": 246, "y": 161, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "RECON", "x": 235, "y": 195, "text_size": "medium", "text_color_palette": "green" }
       ],
       "x": 0,
       "y": 0,
@@ -35,14 +34,13 @@
     },
     {
       "id": "PAYLOADS",
-      "layers": [
-      ],
+      "layers": [],
       "selected_layers": [
-        { "text": "SETTINGS", "x": 255, "y":  38, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "ALERTS", "x": 260, "y":  76, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "PAYLOADS", "x": 262, "y":  113, "text_size": "large", "text_color_palette": "yellow" },
-        { "text": "RECON", "x": 246, "y":  161, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "PINEAP", "x": 235, "y":  195, "text_size": "medium", "text_color_palette": "green" }
+        { "text": "PORTAL", "x": 255, "y": 38, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "ALERTS", "x": 260, "y": 76, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "PAYLOADS", "x": 262, "y": 113, "text_size": "large", "text_color_palette": "yellow" },
+        { "text": "RECON", "x": 246, "y": 161, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "PINEAP", "x": 235, "y": 195, "text_size": "medium", "text_color_palette": "green" }
       ],
       "x": 0,
       "y": 0,
@@ -51,14 +49,13 @@
     },
     {
       "id": "RECON",
-      "layers": [
-      ],
+      "layers": [],
       "selected_layers": [
-        { "text": "ALERTS", "x": 255, "y":  38, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "PAYLOADS", "x": 260, "y":  76, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "RECON", "x": 262, "y":  113, "text_size": "large", "text_color_palette": "yellow" },
-        { "text": "PINEAP", "x": 246, "y":  161, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "SETTINGS", "x": 235, "y":  195, "text_size": "medium", "text_color_palette": "green" }
+        { "text": "ALERTS", "x": 255, "y": 38, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "PAYLOADS", "x": 260, "y": 76, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "RECON", "x": 262, "y": 113, "text_size": "large", "text_color_palette": "yellow" },
+        { "text": "PINEAP", "x": 246, "y": 161, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "SETTINGS", "x": 235, "y": 195, "text_size": "medium", "text_color_palette": "green" }
       ],
       "x": 0,
       "y": 0,
@@ -66,14 +63,13 @@
     },
     {
       "id": "PINEAP",
-      "layers": [
-      ],
+      "layers": [],
       "selected_layers": [
-        { "text": "PAYLOADS", "x": 255, "y":  38, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "RECON", "x": 260, "y":  76, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "PINEAP", "x": 262, "y":  113, "text_size": "large", "text_color_palette": "yellow" },
-        { "text": "SETTINGS", "x": 246, "y":  161, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "ALERTS", "x": 235, "y":  195, "text_size": "medium", "text_color_palette": "green" }
+        { "text": "PAYLOADS", "x": 255, "y": 38, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "RECON", "x": 260, "y": 76, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "PINEAP", "x": 262, "y": 113, "text_size": "large", "text_color_palette": "yellow" },
+        { "text": "SETTINGS", "x": 246, "y": 161, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "PORTAL", "x": 235, "y": 195, "text_size": "medium", "text_color_palette": "green" }
       ],
       "x": 0,
       "y": 0,
@@ -81,18 +77,31 @@
     },
     {
       "id": "SETTINGS",
-      "layers": [
-      ],
+      "layers": [],
       "selected_layers": [
-        { "text": "RECON", "x": 255, "y":  38, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "PINEAP", "x": 260, "y":  76, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "SETTINGS", "x": 262, "y":  113, "text_size": "large", "text_color_palette": "yellow" },
-        { "text": "ALERTS", "x": 246, "y":  161, "text_size": "medium", "text_color_palette": "green" },
-        { "text": "PAYLOADS", "x": 235, "y":  195, "text_size": "medium", "text_color_palette": "green" }
+        { "text": "RECON", "x": 255, "y": 38, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "PINEAP", "x": 260, "y": 76, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "SETTINGS", "x": 262, "y": 113, "text_size": "large", "text_color_palette": "yellow" },
+        { "text": "PORTAL", "x": 246, "y": 161, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "ALERTS", "x": 235, "y": 195, "text_size": "medium", "text_color_palette": "green" }
       ],
       "x": 0,
       "y": 0,
       "target": "settings_menu"
+    },
+    {
+      "id": "pagerportal",
+      "layers": [],
+      "selected_layers": [
+        { "text": "PINEAP", "x": 255, "y": 38, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "SETTINGS", "x": 260, "y": 76, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "PORTAL", "x": 262, "y": 113, "text_size": "large", "text_color_palette": "yellow" },
+        { "text": "ALERTS", "x": 246, "y": 161, "text_size": "medium", "text_color_palette": "green" },
+        { "text": "PAYLOADS", "x": 235, "y": 195, "text_size": "medium", "text_color_palette": "green" }
+      ],
+      "x": 0,
+      "y": 0,
+      "target": "pager_portal_dashboard"
     }
   ]
 }
