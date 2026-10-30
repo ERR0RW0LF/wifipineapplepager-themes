@@ -23,7 +23,7 @@
               { "variable_name": "$_LIST_ITEM", "x": 100, "y": 70, "use_template": "option_dialog_string_selected" },
               { "variable_name": "$_LIST_ITEM", "x": 66, "y": 72, "use_template": "radio" },
               { "image_path": "assets/payloadlog/scroll_up_indicator.png", "x": 37, "y": 70, "recolor_palette": "medium_gray" },
-			  { "image_path": "assets/settings/bodyhighlight.png", "x": 95, "y": 68}
+              { "image_path": "assets/settings/bodyhighlight.png", "x": 95, "y": 68 }
             ],
             "target": "select",
             "button_map": {
@@ -44,7 +44,7 @@
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 100, "y": 100, "use_template": "option_dialog_string_selected" },
               { "variable_name": "$_LIST_ITEM", "x": 66, "y": 102, "use_template": "radio" },
-			  { "image_path": "assets/settings/bodyhighlight.png", "x": 95, "y": 98}
+              { "image_path": "assets/settings/bodyhighlight.png", "x": 95, "y": 98 }
             ],
             "target": "select",
             "button_map": {
@@ -65,7 +65,7 @@
             "selected_layers": [
               { "variable_name": "$_LIST_ITEM", "x": 100, "y": 130, "use_template": "option_dialog_string_selected" },
               { "variable_name": "$_LIST_ITEM", "x": 66, "y": 132, "use_template": "radio" },
-			  { "image_path": "assets/settings/bodyhighlight.png", "x": 95, "y": 128}
+              { "image_path": "assets/settings/bodyhighlight.png", "x": 95, "y": 128 }
             ],
             "target": "select",
             "button_map": {
@@ -88,7 +88,7 @@
               { "variable_name": "$_LIST_ITEM", "x": 100, "y": 160, "use_template": "option_dialog_string_selected" },
               { "variable_name": "$_LIST_ITEM", "x": 66, "y": 162, "use_template": "radio" },
               { "image_path": "assets/payloadlog/scroll_down_indicator.png", "x": 37, "y": 175, "recolor_palette": "medium_gray" },
-			  { "image_path": "assets/settings/bodyhighlight.png", "x": 95, "y": 158}
+              { "image_path": "assets/settings/bodyhighlight.png", "x": 95, "y": 158 }
             ],
             "target": "select",
             "button_map": {

@@ -26,17 +26,15 @@
           {
             "id": "Slot0",
             "layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 30,
-                "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 }},
+              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 30, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 } },
               { "image_path": "assets/folder.png", "x": 10, "y": 32 },
-              { "image_path": "assets/scrollbar_full.png", "x": 458, "y": 22}
+              { "image_path": "assets/scrollbar_full.png", "x": 458, "y": 22 }
             ],
             "selected_layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 30,
-              "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 }},
-            { "image_path": "assets/settings/longhighlight.png", "x": 33, "y": 28},
+              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 30, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 } },
+              { "image_path": "assets/settings/longhighlight.png", "x": 33, "y": 28 },
               { "image_path": "assets/folder_open.png", "x": 10, "y": 32 },
-              { "image_path": "assets/scrollbar_full.png", "x": 458, "y": 22}
+              { "image_path": "assets/scrollbar_full.png", "x": 458, "y": 22 }
             ],
             "target": "pager_portal_get_payloads_for_category_list",
             "variable": "$_LIST_ITEM"
@@ -44,14 +42,12 @@
           {
             "id": "Slot1",
             "layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 65,
-              "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 }},
+              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 65, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 } },
               { "image_path": "assets/folder.png", "x": 10, "y": 67 }
             ],
             "selected_layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 65,
-              "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 }},
-            { "image_path": "assets/settings/longhighlight.png", "x": 33, "y": 63},
+              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 65, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 } },
+              { "image_path": "assets/settings/longhighlight.png", "x": 33, "y": 63 },
               { "image_path": "assets/folder_open.png", "x": 10, "y": 67 }
             ],
             "target": "pager_portal_get_payloads_for_category_list",
@@ -60,14 +56,12 @@
           {
             "id": "Slot2",
             "layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 100,
-              "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 }},
+              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 100, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 } },
               { "image_path": "assets/folder.png", "x": 10, "y": 102 }
             ],
             "selected_layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 100,
-              "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 }},
-            { "image_path": "assets/settings/longhighlight.png", "x": 33, "y": 98},
+              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 100, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 } },
+              { "image_path": "assets/settings/longhighlight.png", "x": 33, "y": 98 },
               { "image_path": "assets/folder_open.png", "x": 10, "y": 102 }
             ],
             "target": "pager_portal_get_payloads_for_category_list",
@@ -76,13 +70,12 @@
           {
             "id": "Slot3",
             "layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 135,
-              "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 }},
+              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 135, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 } },
               { "image_path": "assets/folder.png", "x": 10, "y": 137 }
             ],
             "selected_layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 135, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 }},
-			  { "image_path": "assets/settings/longhighlight.png", "x": 33, "y": 133},
+              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 135, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 } },
+              { "image_path": "assets/settings/longhighlight.png", "x": 33, "y": 133 },
               { "image_path": "assets/folder_open.png", "x": 10, "y": 137 }
             ],
             "target": "pager_portal_get_payloads_for_category_list",
@@ -91,16 +84,14 @@
           {
             "id": "Slot4",
             "layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 170,
-              "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 }},
-              { "image_path": "assets/scroll_down.png", "x": 460, "y": 183},
+              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 170, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 } },
+              { "image_path": "assets/scroll_down.png", "x": 460, "y": 183 },
               { "image_path": "assets/folder.png", "x": 10, "y": 172 }
             ],
             "selected_layers": [
-              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 170,
-              "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 }},
-            { "image_path": "assets/settings/longhighlight.png", "x": 33, "y": 168},
-              { "image_path": "assets/scroll_down.png", "x": 460, "y": 183},
+              { "variable_name": "$_LIST_ITEM", "x": 35, "y": 170, "string_template": { "text_size": "medium", "text_color_palette": "black", "max_chars": 30, "wrap_text": false, "max_lines": 1 } },
+              { "image_path": "assets/settings/longhighlight.png", "x": 33, "y": 168 },
+              { "image_path": "assets/scroll_down.png", "x": 460, "y": 183 },
               { "image_path": "assets/folder_open.png", "x": 10, "y": 172 }
             ],
             "target": "pager_portal_get_payloads_for_category_list",

@@ -1,0 +1,81 @@
+{
+  "screen_name": "settings_general_submenu_explained",
+  "windowed_canvas": true,
+  "cache_canvases": false,
+  "button_map": {
+    "a": "noop",
+    "b": "back",
+    "up": "noop",
+    "down": "noop",
+    "left": "back",
+    "right": "noop"
+  },
+  "background": {
+    "layers": [
+      { "image_path": "assets/merlinhelp.png", "x": 0, "y": 0 }
+    ]
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "menu_items": [
+        {
+          "id": "Volume",
+          "x": 20,
+          "y": 58,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Speaker volume", "x": 167, "y": -12, "text_size": "small", "text_color_palette": "black" },
+            { "text": "level.", "x": 167, "y": 6, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Vibrate",
+          "x": 20,
+          "y": 90,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Enables the", "x": 167, "y": -44, "text_size": "small", "text_color_palette": "black" },
+            { "text": "vibration motor", "x": 167, "y": -26, "text_size": "small", "text_color_palette": "black" },
+            { "text": "for alerts and", "x": 167, "y": -8, "text_size": "small", "text_color_palette": "black" },
+            { "text": "notifications.", "x": 167, "y": 10, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Vibrate w/ Ringtone",
+          "x": 20,
+          "y": 122,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Also vibrates", "x": 167, "y": -76, "text_size": "small", "text_color_palette": "black" },
+            { "text": "when a ringtone", "x": 167, "y": -58, "text_size": "small", "text_color_palette": "black" },
+            { "text": "plays. Needs", "x": 167, "y": -40, "text_size": "small", "text_color_palette": "black" },
+            { "text": "Vibrate on.", "x": 167, "y": -22, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "Theme",
+          "x": 20,
+          "y": 154,
+          "layers": [],
+          "selected_layers": [
+            { "text": "The UI theme /", "x": 167, "y": -108, "text_size": "small", "text_color_palette": "black" },
+            { "text": "skin used", "x": 167, "y": -90, "text_size": "small", "text_color_palette": "black" },
+            { "text": "across menus.", "x": 167, "y": -72, "text_size": "small", "text_color_palette": "black" }
+          ]
+        },
+        {
+          "id": "DPADLED",
+          "x": 20,
+          "y": 186,
+          "layers": [],
+          "selected_layers": [
+            { "text": "Color of the", "x": 167, "y": -140, "text_size": "small", "text_color_palette": "black" },
+            { "text": "D-pad backlight", "x": 167, "y": -122, "text_size": "small", "text_color_palette": "black" },
+            { "text": "LED.", "x": 167, "y": -104, "text_size": "small", "text_color_palette": "black" }
+          ]
+        }
+      ]
+    }
+  ]
+}

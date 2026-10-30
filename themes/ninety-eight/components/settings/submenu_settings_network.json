@@ -14,18 +14,18 @@
   "background": {
     "layers": [
       { "image_path": "assets/settings_bg.png", "x": 0, "y": 0 },
-      { "image_path": "assets/slider.png", "x": 127, "y": 38},
-      { "image_path": "assets/scrollbar.png", "x": 458, "y": 22},
-      { "text": "General",  "x": 10, "y": 30,  "text_color_palette": "gray" },
-      { "text": "Display",  "x": 10, "y": 65,  "text_color_palette": "gray" },
+      { "image_path": "assets/slider.png", "x": 127, "y": 38 },
+      { "image_path": "assets/scrollbar.png", "x": 458, "y": 22 },
+      { "text": "General", "x": 10, "y": 30, "text_color_palette": "gray" },
+      { "text": "Display", "x": 10, "y": 65, "text_color_palette": "gray" },
       { "text": "Ringtone", "x": 10, "y": 100, "text_color_palette": "gray" },
-      { "text": "Network",  "x": 10, "y": 135, "text_color_palette": "black" },
-      { "image_path": "assets/settings/listhighlight.png", "x": 8, "y": 133},
-      { "text": "System",   "x": 10, "y": 170, "text_color_palette": "gray" }
+      { "text": "Network", "x": 10, "y": 135, "text_color_palette": "black" },
+      { "image_path": "assets/settings/listhighlight.png", "x": 8, "y": 133 },
+      { "text": "System", "x": 10, "y": 170, "text_color_palette": "gray" },
+      { "image_path": "assets/help.png", "x": 418, "y": 6 }
     ]
   },
   "pages": [
-
     {
       "page_index": 1,
       "menu_items": [
@@ -34,80 +34,95 @@
           "x": 160,
           "y": 30,
           "layers": [
-			{ "image_path": "assets/slider.png", "x": 298, "y": 8},
-            { "variable_name":  "$_WIFI_CLIENT_MODE_ENABLED", "use_template": "checkbox" },
+            { "image_path": "assets/slider.png", "x": 298, "y": 8 },
+            { "variable_name": "$_WIFI_CLIENT_MODE_ENABLED", "use_template": "checkbox" },
             { "text": "Client Mode", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
-			{ "image_path": "assets/slider.png", "x": 298, "y": 8},
-            { "variable_name":  "$_WIFI_CLIENT_MODE_ENABLED", "use_template": "checkbox" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/slider.png", "x": 298, "y": 8 },
+            { "variable_name": "$_WIFI_CLIENT_MODE_ENABLED", "use_template": "checkbox" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Client Mode", "x": 40, "text_color_palette": "black" }
           ],
           "target": "inline_toggle",
-          "variable": "$_WIFI_CLIENT_MODE_ENABLED"
+          "variable": "$_WIFI_CLIENT_MODE_ENABLED",
+          "button_map": {
+            "right": "target settings_network_submenu_explained Client Mode Toggle"
+          }
         },
         {
           "id": "Client Mode Setup",
           "x": 160,
-          "y":65,
+          "y": 65,
           "layers": [
             { "image_path": "assets/wizard.png", "recolor_palette": "black" },
             { "text": "Client Mode Setup", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
             { "image_path": "assets/wizard.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Client Mode Setup", "x": 40, "text_color_palette": "black" }
           ],
-          "target": "client_mode_wizard"
+          "target": "client_mode_wizard",
+          "button_map": {
+            "right": "target settings_network_submenu_explained Client Mode Setup"
+          }
         },
         {
           "id": "Management AP Toggle",
           "x": 160,
-          "y":100,
+          "y": 100,
           "layers": [
-            { "variable_name":  "$_WIFI_MGMT_AP_ENABLED", "use_template": "checkbox" },
+            { "variable_name": "$_WIFI_MGMT_AP_ENABLED", "use_template": "checkbox" },
             { "text": "Management AP", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_WIFI_MGMT_AP_ENABLED", "use_template": "checkbox" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "variable_name": "$_WIFI_MGMT_AP_ENABLED", "use_template": "checkbox" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Management AP", "x": 40, "text_color_palette": "black" }
           ],
           "target": "inline_toggle",
-          "variable": "$_WIFI_MGMT_AP_ENABLED"
+          "variable": "$_WIFI_MGMT_AP_ENABLED",
+          "button_map": {
+            "right": "target settings_network_submenu_explained Management AP Toggle"
+          }
         },
         {
           "id": "Management AP Setup",
           "x": 160,
-          "y":135,
+          "y": 135,
           "layers": [
             { "image_path": "assets/wizard.png", "recolor_palette": "black" },
             { "text": "Management AP Setup", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
             { "image_path": "assets/wizard.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Management AP Setup", "x": 40, "text_color_palette": "black" }
           ],
-          "target": "management_ap_wizard"
+          "target": "management_ap_wizard",
+          "button_map": {
+            "right": "target settings_network_submenu_explained Management AP Setup"
+          }
         },
         {
           "id": "Hostname",
           "x": 160,
-          "y":170,
+          "y": 170,
           "layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
             { "text": "Hostname", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
             { "image_path": "assets/keyboard.png", "recolor_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Hostname", "x": 40, "text_color_palette": "black" }
           ],
           "target": "edit_string_dialog",
-          "variable": "$_HOSTNAME"
+          "variable": "$_HOSTNAME",
+          "button_map": {
+            "right": "target settings_network_submenu_explained Hostname"
+          }
         }
       ]
     },
@@ -119,69 +134,95 @@
           "x": 160,
           "y": 30,
           "layers": [
-			{ "image_path": "assets/slider.png", "x": 298, "y": 109},
-            { "variable_name":  "$_6Ghz_ENABLED", "use_template": "checkbox" },
+            { "image_path": "assets/slider.png", "x": 298, "y": 109 },
+            { "variable_name": "$_6Ghz_ENABLED", "use_template": "checkbox" },
             { "text": "6 GHz", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
-			{ "image_path": "assets/slider.png", "x": 298, "y": 109},
-            { "variable_name":  "$_6Ghz_ENABLED", "use_template": "checkbox" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "image_path": "assets/slider.png", "x": 298, "y": 109 },
+            { "variable_name": "$_6Ghz_ENABLED", "use_template": "checkbox" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "6 GHz", "x": 40, "text_color_palette": "black" }
           ],
           "target": "inline_toggle",
-          "variable": "$_6Ghz_ENABLED"
+          "variable": "$_6Ghz_ENABLED",
+          "button_map": {
+            "right": "target settings_network_submenu_explained 6 GHz"
+          }
         },
         {
           "id": "5 GHz",
           "x": 160,
-          "y":65,
+          "y": 65,
           "layers": [
-            { "variable_name":  "$_5Ghz_ENABLED", "use_template": "checkbox" },
+            { "variable_name": "$_5Ghz_ENABLED", "use_template": "checkbox" },
             { "text": "5 GHz", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_5Ghz_ENABLED", "use_template": "checkbox" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "variable_name": "$_5Ghz_ENABLED", "use_template": "checkbox" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "5 GHz", "x": 40, "text_color_palette": "black" }
           ],
           "target": "inline_toggle",
-          "variable": "$_5Ghz_ENABLED"
+          "variable": "$_5Ghz_ENABLED",
+          "button_map": {
+            "right": "target settings_network_submenu_explained 5 GHz"
+          }
         },
         {
           "id": "2.4 GHz",
           "x": 160,
-          "y":100,
+          "y": 100,
           "layers": [
-            { "variable_name":  "$_2.4Ghz_ENABLED", "use_template": "checkbox" },
+            { "variable_name": "$_2.4Ghz_ENABLED", "use_template": "checkbox" },
             { "text": "2.4 GHz", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_2.4Ghz_ENABLED", "use_template": "checkbox" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "variable_name": "$_2.4Ghz_ENABLED", "use_template": "checkbox" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "2.4 GHz", "x": 40, "text_color_palette": "black" }
           ],
           "target": "inline_toggle",
-          "variable": "$_2.4Ghz_ENABLED"
+          "variable": "$_2.4Ghz_ENABLED",
+          "button_map": {
+            "right": "target settings_network_submenu_explained 2.4 GHz"
+          }
         },
         {
           "id": "Bluetooth",
           "x": 160,
-          "y":135,
+          "y": 135,
           "layers": [
-            { "variable_name":  "$_BLUETOOTH_ENABLED", "use_template": "checkbox" },
+            { "variable_name": "$_BLUETOOTH_ENABLED", "use_template": "checkbox" },
             { "text": "Bluetooth", "x": 40, "text_color_palette": "black" }
           ],
           "selected_layers": [
-            { "variable_name":  "$_BLUETOOTH_ENABLED", "use_template": "checkbox" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3},
+            { "variable_name": "$_BLUETOOTH_ENABLED", "use_template": "checkbox" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
             { "text": "Bluetooth", "x": 40, "text_color_palette": "black" }
           ],
           "target": "inline_toggle",
-          "variable": "$_BLUETOOTH_ENABLED"
+          "variable": "$_BLUETOOTH_ENABLED",
+          "button_map": {
+            "right": "target settings_network_submenu_explained Bluetooth"
+          }
+        },
+        {
+          "id": "Bluetooth Settings",
+          "x": 160,
+          "y": 170,
+          "layers": [
+            { "image_path": "assets/menu.png", "recolor_palette": "black" },
+            { "text": "Bluetooth Settings", "x": 40, "text_color_palette": "black" }
+          ],
+          "selected_layers": [
+            { "image_path": "assets/menu.png", "recolor_palette": "black" },
+            { "image_path": "assets/settings/bodyhighlight.png", "x": 35, "y": -3 },
+            { "text": "Bluetooth Settings", "x": 40, "text_color_palette": "black" }
+          ],
+          "target": "settings_bluetooth_submenu"
         }
       ]
     }
-
   ]
 }

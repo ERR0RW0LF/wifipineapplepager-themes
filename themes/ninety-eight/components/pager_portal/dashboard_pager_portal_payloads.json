@@ -21,8 +21,7 @@
           ],
           "selected_layers": [
             { "text": "Get Payloads", "x": 5, "text_color_palette": "black" },
-			{ "image_path": "assets/settings/bodyhighlight.png", "y": -3}
-
+            { "image_path": "assets/settings/bodyhighlight.png", "y": -3 }
           ],
           "x": 160,
           "y": 30,
@@ -35,11 +34,10 @@
           ],
           "selected_layers": [
             { "text": "Update Payloads", "x": 5, "text_color_palette": "black" },
-            { "image_path": "assets/settings/bodyhighlight.png", "y": -3}
-
+            { "image_path": "assets/settings/bodyhighlight.png", "y": -3 }
           ],
           "x": 160,
-          "y":65,
+          "y": 65,
           "target": "pager_portal_update_payloads_dashboard"
         },
         {
@@ -49,11 +47,10 @@
           ],
           "selected_layers": [
             { "text": "Uninstall Payloads", "x": 5, "text_color_palette": "black" },
-            { "image_path": "assets/settings/bodyhighlight.png", "y": -3}
-
+            { "image_path": "assets/settings/bodyhighlight.png", "y": -3 }
           ],
           "x": 160,
-          "y":100,
+          "y": 100,
           "target": "pager_portal_installed_payloads_list",
           "variable": "$_INSTALLED_PAYLOADS_LIST"
         }

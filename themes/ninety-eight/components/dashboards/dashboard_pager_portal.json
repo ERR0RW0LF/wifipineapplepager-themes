@@ -18,13 +18,12 @@
           "id": "Payloads",
           "layers": [
             { "text": "Payloads", "x": 7, "y": 50, "text_color_palette": "black", "text_size": "medium" },
-            { "image_path": "assets/pager_portal/briefcase.png", "x": 35, "y": 0}
+            { "image_path": "assets/pager_portal/briefcase.png", "x": 35, "y": 0 }
           ],
           "selected_layers": [
             { "text": "Payloads", "x": 7, "y": 50, "text_color_palette": "black", "text_size": "medium" },
-            { "image_path": "assets/pager_portal/briefcase.png", "x": 35, "y": 0},
-            { "image_path": "assets/settings/listhighlight.png", "x": 0, "y": 50}
-
+            { "image_path": "assets/pager_portal/briefcase.png", "x": 35, "y": 0 },
+            { "image_path": "assets/settings/listhighlight.png", "x": 0, "y": 50 }
           ],
           "x": 180,
           "y": 55,
@@ -34,13 +33,12 @@
           "id": "Themes",
           "layers": [
             { "text": "Themes", "x": 17, "y": 50, "text_color_palette": "black", "text_size": "medium" },
-            { "image_path": "assets/pager_portal/paint.png", "x": 35, "y": 0}
+            { "image_path": "assets/pager_portal/paint.png", "x": 35, "y": 0 }
           ],
           "selected_layers": [
             { "text": "Themes", "x": 17, "y": 50, "text_color_palette": "black", "text_size": "medium" },
-            { "image_path": "assets/pager_portal/paint.png", "x": 35, "y": 0},
-            { "image_path": "assets/settings/listhighlight.png", "x": 0, "y": 50}
-
+            { "image_path": "assets/pager_portal/paint.png", "x": 35, "y": 0 },
+            { "image_path": "assets/settings/listhighlight.png", "x": 0, "y": 50 }
           ],
           "x": 310,
           "y": 55,
